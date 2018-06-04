@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B9547D24-3F0F-45C1-BC37-6BDE8538D50B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ResourceBibleStudy</RootNamespace>
+    <AssemblyName>ResourceBibleStudy</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Views\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
+    <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
+    <Compile Include="Areas\HelpPage\Controllers\HelpController.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageAreaRegistration.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageConfigurationExtensions.cs" />
+    <Compile Include="Areas\HelpPage\Models\HelpPageApiModel.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ImageSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\InvalidSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ObjectGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
+    <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\QueryHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Books\DailyScriptures.txt" />
+    <Content Include="App_Data\Books\MSG.json.txt" />
+    <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\datepicker3.css" />
+    <Content Include="Content\daterangepicker-bs3.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\theme\turnjs\css\jquery.ui.css" />
+    <Content Include="Content\theme\turnjs\css\jquery.ui.html4.css" />
+    <Content Include="Content\theme\turnjs\css\steve-jobs-html4.css" />
+    <Content Include="Content\theme\turnjs\css\steve-jobs.css" />
+    <Content Include="Content\theme\turnjs\js\jGestures-license.txt" />
+    <Content Include="Content\theme\turnjs\js\jgestures.min.js" />
+    <Content Include="Content\theme\turnjs\js\jquery-ui-1.8.20.custom.min.js" />
+    <Content Include="Content\theme\turnjs\js\jquery.min.1.7.js" />
+    <Content Include="Content\theme\turnjs\js\jquery.mousewheel.min.js" />
+    <Content Include="Content\theme\turnjs\js\modernizr.2.5.3.min.js" />
+    <Content Include="Content\theme\turnjs\js\steve-jobs.js" />
+    <Content Include="Content\theme\turnjs\lib\hash.js" />
+    <Content Include="Content\theme\turnjs\lib\scissor.js" />
+    <Content Include="Content\theme\turnjs\lib\scissor.min.js" />
+    <Content Include="Content\theme\turnjs\lib\turn.html4.js" />
+    <Content Include="Content\theme\turnjs\lib\turn.html4.min.js" />
+    <Content Include="Content\theme\turnjs\lib\turn.js" />
+    <Content Include="Content\theme\turnjs\lib\turn.min.js" />
+    <Content Include="Content\theme\turnjs\lib\zoom.js" />
+    <Content Include="Content\theme\turnjs\lib\zoom.min.js" />
+    <Content Include="Content\theme\turnjs\pics\05.jpg" />
+    <Content Include="Content\theme\turnjs\pics\06.jpg" />
+    <Content Include="Content\theme\turnjs\pics\07.jpg" />
+    <Content Include="Content\theme\turnjs\pics\08.jpg" />
+    <Content Include="Content\theme\turnjs\pics\09.jpg" />
+    <Content Include="Content\theme\turnjs\pics\10.jpg" />
+    <Content Include="Content\theme\turnjs\pics\11.jpg" />
+    <Content Include="Content\theme\turnjs\pics\12.jpg" />
+    <Content Include="Content\theme\turnjs\pics\13.jpg" />
+    <Content Include="Content\theme\turnjs\pics\14.jpg" />
+    <Content Include="Content\theme\turnjs\pics\15.jpg" />
+    <Content Include="Content\theme\turnjs\pics\16.jpg" />
+    <Content Include="Content\theme\turnjs\pics\17.jpg" />
+    <Content Include="Content\theme\turnjs\pics\18.jpg" />
+    <Content Include="Content\theme\turnjs\pics\19.jpg" />
+    <Content Include="Content\theme\turnjs\pics\20.jpg" />
+    <Content Include="Content\theme\turnjs\pics\21.jpg" />
+    <Content Include="Content\theme\turnjs\pics\22.jpg" />
+    <Content Include="Content\theme\turnjs\pics\23.jpg" />
+    <Content Include="Content\theme\turnjs\pics\24.jpg" />
+    <Content Include="Content\theme\turnjs\pics\24.png" />
+    <Content Include="Content\theme\turnjs\pics\25.jpg" />
+    <Content Include="Content\theme\turnjs\pics\26.jpg" />
+    <Content Include="Content\theme\turnjs\pics\27.jpg" />
+    <Content Include="Content\theme\turnjs\pics\29.jpg" />
+    <Content Include="Content\theme\turnjs\pics\30.jpg" />
+    <Content Include="Content\theme\turnjs\pics\31.jpg" />
+    <Content Include="Content\theme\turnjs\pics\32.jpg" />
+    <Content Include="Content\theme\turnjs\pics\33.jpg" />
+    <Content Include="Content\theme\turnjs\pics\34.jpg" />
+    <Content Include="Content\theme\turnjs\pics\35.jpg" />
+    <Content Include="Content\theme\turnjs\pics\36.jpg" />
+    <Content Include="Content\theme\turnjs\pics\37.jpg" />
+    <Content Include="Content\theme\turnjs\pics\38.jpg" />
+    <Content Include="Content\theme\turnjs\pics\39.jpg" />
+    <Content Include="Content\theme\turnjs\pics\40.jpg" />
+    <Content Include="Content\theme\turnjs\pics\41.jpg" />
+    <Content Include="Content\theme\turnjs\pics\42.jpg" />
+    <Content Include="Content\theme\turnjs\pics\43.jpg" />
+    <Content Include="Content\theme\turnjs\pics\44.jpg" />
+    <Content Include="Content\theme\turnjs\pics\45.jpg" />
+    <Content Include="Content\theme\turnjs\pics\46.jpg" />
+    <Content Include="Content\theme\turnjs\pics\47.jpg" />
+    <Content Include="Content\theme\turnjs\pics\48.jpg" />
+    <Content Include="Content\theme\turnjs\pics\book-covers.jpg" />
+    <Content Include="Content\theme\turnjs\pics\book-covers.png" />
+    <Content Include="Content\theme\turnjs\pics\books.jpg" />
+    <Content Include="Content\theme\turnjs\pics\collegue.jpg" />
+    <Content Include="Content\theme\turnjs\pics\gradient-page-left.jpg" />
+    <Content Include="Content\theme\turnjs\pics\gradient-page-right.jpg" />
+    <Content Include="Content\theme\turnjs\pics\highschool.jpg" />
+    <Content Include="Content\theme\turnjs\pics\highschool2.jpg" />
+    <Content Include="Content\theme\turnjs\pics\loader.gif" />
+    <Content Include="Content\theme\turnjs\pics\pages-depth.png" />
+    <Content Include="Content\theme\turnjs\pics\preview.jpg" />
+    <Content Include="Content\theme\turnjs\pics\spine.png" />
+    <Content Include="Content\theme\turnjs\pics\thumb.png" />
+    <Content Include="Content\theme\turnjs\pics\young.jpg" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap-datepicker.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\HelpPage\Views\Web.config" />
+    <Content Include="Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Index.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="Content\theme\turnjs\fonts\Stempel-Garamond-W01-Roman.woff" />
+    <Content Include="Content\theme\turnjs\lib\compress.sh" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\daterangepicker.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Shared\_BookContent.cshtml" />
+    <Content Include="Views\Shared\_BookIntroduction.cshtml" />
+    <Content Include="Views\Shared\_BookTableOfContent.cshtml" />
+    <Content Include="Views\Shared\_ChapterTableOfContent.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ResourceBibleStudy.Core\ResourceBibleStudy.Core.csproj">
+      <Project>{34e9b557-6152-42dd-9c85-82d0f828ff5a}</Project>
+      <Name>ResourceBibleStudy.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ResourceBibleStudy.Repository\ResourceBibleStudy.Repository.csproj">
+      <Project>{59bf8c04-c7a4-4f15-854b-b0d6079f18e2}</Project>
+      <Name>ResourceBibleStudy.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7086</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:7086/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

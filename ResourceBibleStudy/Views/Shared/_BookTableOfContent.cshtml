@@ -1,0 +1,11 @@
+@model List<ResourceBibleStudy.Core.Dto.Book>
+<div class="table-contents">
+    <h1>Contents</h1>
+    <ul>
+        @foreach (var book in Model)
+        {
+            <li><a href="#page/12">@book.BookName <span>@book.BookChapter.Count</span></a></li>
+        }
+    </ul>
+</div>
+<span class="page-number">Powered by Resource TAT</span>

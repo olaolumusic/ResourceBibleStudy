@@ -1,0 +1,2564 @@
+[{
+		"Id" : 0,
+		"FirstReading" : "Genesis. 1-2",
+		"SecondReading" : " Psalm. 1",
+		"ThirdReading" : " Matthew. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 1
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 3-4",
+		"SecondReading" : " Psalm. 2",
+		"ThirdReading" : " Matthew. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 2
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 5-7",
+		"SecondReading" : " Psalm. 3",
+		"ThirdReading" : " Matthew. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 3
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 8-9",
+		"SecondReading" : " Psalm. 4",
+		"ThirdReading" : " Matthew. 6-7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 4
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 10-11",
+		"SecondReading" : " Psalm. 5",
+		"ThirdReading" : " Matthew. 8-9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 5
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis.12-13",
+		"SecondReading" : " Psalm. 6",
+		"ThirdReading" : " Matthew.10-11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 6
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 14-15",
+		"SecondReading" : " Psalm. 7",
+		"ThirdReading" : " Matthew. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 7
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 16-17",
+		"SecondReading" : " Psalm.8",
+		"ThirdReading" : " Matthew. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 8
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 18-19",
+		"SecondReading" : " Psalm. 9",
+		"ThirdReading" : " Matthew. 14-15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 9
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 20-21",
+		"SecondReading" : " Psalm. 10",
+		"ThirdReading" : " Matthew. 16-17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 10
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 22-23",
+		"SecondReading" : " Psalm. 11",
+		"ThirdReading" : " Matthew. 18",
+		"BookVersion" : null,
+		"DayOfTheYear" : 11
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 24",
+		"SecondReading" : " Psalm. 12",
+		"ThirdReading" : " Matthew. 19-20",
+		"BookVersion" : null,
+		"DayOfTheYear" : 12
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 25-26",
+		"SecondReading" : " Psalm. 13",
+		"ThirdReading" : " Matthew. 21",
+		"BookVersion" : null,
+		"DayOfTheYear" : 13
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 27-28",
+		"SecondReading" : " Psalm. 14",
+		"ThirdReading" : " Matthew. 22",
+		"BookVersion" : null,
+		"DayOfTheYear" : 14
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 29-30",
+		"SecondReading" : " Psalm. 15",
+		"ThirdReading" : " Matthew. 23",
+		"BookVersion" : null,
+		"DayOfTheYear" : 15
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 31-32",
+		"SecondReading" : " Psalm. 16",
+		"ThirdReading" : " Matthew. 24",
+		"BookVersion" : null,
+		"DayOfTheYear" : 16
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 33-34",
+		"SecondReading" : " Psalm. 17",
+		"ThirdReading" : " Matthew. 25",
+		"BookVersion" : null,
+		"DayOfTheYear" : 17
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 35-36",
+		"SecondReading" : " Psalm. 18",
+		"ThirdReading" : " Matthew. 26",
+		"BookVersion" : null,
+		"DayOfTheYear" : 18
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 37-38",
+		"SecondReading" : " Psalm. 19",
+		"ThirdReading" : " Matthew. 27",
+		"BookVersion" : null,
+		"DayOfTheYear" : 19
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 39-40",
+		"SecondReading" : " Psalm.20",
+		"ThirdReading" : " Matthew. 28",
+		"BookVersion" : null,
+		"DayOfTheYear" : 20
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 41-42",
+		"SecondReading" : " Psalm. 21",
+		"ThirdReading" : " Mark. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 21
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 43-44",
+		"SecondReading" : " Psalm. 22",
+		"ThirdReading" : " Mark. 2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 22
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 45-46",
+		"SecondReading" : " Psalm. 23",
+		"ThirdReading" : " Mark. 3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 23
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 47-48",
+		"SecondReading" : " Psalm. 24",
+		"ThirdReading" : " Mark. 4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 24
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Genesis. 49-50",
+		"SecondReading" : " Psalm. 25",
+		"ThirdReading" : " Mark. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 25
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 1-2",
+		"SecondReading" : " Psalm. 26",
+		"ThirdReading" : " Mark. 6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 26
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 3-4",
+		"SecondReading" : " Psalm. 27",
+		"ThirdReading" : " Mark. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 27
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 5-6",
+		"SecondReading" : " Psalm. 28",
+		"ThirdReading" : " Mark. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 28
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 7-8",
+		"SecondReading" : " Psalm. 29",
+		"ThirdReading" : " Mark. 9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 29
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 9-10",
+		"SecondReading" : " Psalm. 30",
+		"ThirdReading" : " Mark. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 30
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 11-12",
+		"SecondReading" : " Psalm. 31",
+		"ThirdReading" : " Mark. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 31
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 13-14",
+		"SecondReading" : " Psalm. 32",
+		"ThirdReading" : " Mark. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 32
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 15-16",
+		"SecondReading" : " Psalm. 33",
+		"ThirdReading" : " Mark. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 33
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 17-18",
+		"SecondReading" : " Psalm. 34",
+		"ThirdReading" : " Mark. 14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 34
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 19-20",
+		"SecondReading" : " Psalm. 35",
+		"ThirdReading" : " Mark. 15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 35
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 21-22",
+		"SecondReading" : " Psalm. 36",
+		"ThirdReading" : " Mark. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 36
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 23-24",
+		"SecondReading" : " Psalm. 37",
+		"ThirdReading" : " Luke. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 37
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 25-26",
+		"SecondReading" : " Psalm. 38",
+		"ThirdReading" : " Luke. 2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 38
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 27-28",
+		"SecondReading" : " Psalm. 39",
+		"ThirdReading" : " Luke. 3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 39
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 29-30",
+		"SecondReading" : " Psalm. 40",
+		"ThirdReading" : " Luke. 4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 40
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 31-32",
+		"SecondReading" : " Psalm. 41",
+		"ThirdReading" : " Luke. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 41
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 33-34",
+		"SecondReading" : " Psalm. 42",
+		"ThirdReading" : " Luke. 6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 42
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 35-36",
+		"SecondReading" : " Psalm. 43",
+		"ThirdReading" : " Luke. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 43
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 37-38",
+		"SecondReading" : " Psalm. 44",
+		"ThirdReading" : " Luke. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 44
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Exodus. 39-40",
+		"SecondReading" : " Psalm. 45",
+		"ThirdReading" : " Luke. 9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 45
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 1-2",
+		"SecondReading" : " Psalm. 46",
+		"ThirdReading" : " Luke. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 46
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 3-4",
+		"SecondReading" : " Psalm. 47",
+		"ThirdReading" : " Luke. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 47
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 5-6",
+		"SecondReading" : " Psalm. 48",
+		"ThirdReading" : " Luke. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 48
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 7-8",
+		"SecondReading" : " Psalm. 49",
+		"ThirdReading" : " Luke. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 49
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 9-10",
+		"SecondReading" : " Psalm.50",
+		"ThirdReading" : " Luke. 14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 50
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 11-12",
+		"SecondReading" : " Psalm. 51",
+		"ThirdReading" : " Luke. 15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 51
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 13",
+		"SecondReading" : " Psalm. 52",
+		"ThirdReading" : " Luke. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 52
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 14",
+		"SecondReading" : " Psalm. 53",
+		"ThirdReading" : " Luke. 17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 53
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 15-16",
+		"SecondReading" : " Psalm. 54",
+		"ThirdReading" : " Luke. 18",
+		"BookVersion" : null,
+		"DayOfTheYear" : 54
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 17-18",
+		"SecondReading" : " Psalm. 55",
+		"ThirdReading" : " Luke. 19",
+		"BookVersion" : null,
+		"DayOfTheYear" : 55
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 19-20",
+		"SecondReading" : " Psalm. 56",
+		"ThirdReading" : " Luke. 20",
+		"BookVersion" : null,
+		"DayOfTheYear" : 56
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 21-22",
+		"SecondReading" : " Psalm. 57",
+		"ThirdReading" : " Luke. 21",
+		"BookVersion" : null,
+		"DayOfTheYear" : 57
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 23-24",
+		"SecondReading" : " Psalm. 58",
+		"ThirdReading" : " Luke. 22",
+		"BookVersion" : null,
+		"DayOfTheYear" : 58
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus. 25",
+		"SecondReading" : null,
+		"ThirdReading" : null,
+		"BookVersion" : null,
+		"DayOfTheYear" : 59
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Psalm. 59",
+		"SecondReading" : " Luke. 23",
+		"ThirdReading" : null,
+		"BookVersion" : null,
+		"DayOfTheYear" : 60
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Leviticus.26-27",
+		"SecondReading" : " Psalm. 60",
+		"ThirdReading" : " Luke. 24",
+		"BookVersion" : null,
+		"DayOfTheYear" : 61
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 1-2",
+		"SecondReading" : " Psalm. 61",
+		"ThirdReading" : " John. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 62
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 3-4",
+		"SecondReading" : " Psalm. 62",
+		"ThirdReading" : " John. 2-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 63
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 5-6",
+		"SecondReading" : " Psalm. 63",
+		"ThirdReading" : " John. 4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 64
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 7",
+		"SecondReading" : " Psalm. 64",
+		"ThirdReading" : " John. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 65
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 8-9",
+		"SecondReading" : " Psalm. 65",
+		"ThirdReading" : " John. 6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 66
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 10-11",
+		"SecondReading" : " Psalm. 66",
+		"ThirdReading" : " John. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 67
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 12-13",
+		"SecondReading" : " Psalm. 67",
+		"ThirdReading" : " John. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 68
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 14-15",
+		"SecondReading" : " Psalm. 68",
+		"ThirdReading" : " John. 9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 69
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 16",
+		"SecondReading" : " Psalm. 69",
+		"ThirdReading" : " John. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 70
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 17-18",
+		"SecondReading" : " Psalm. 70",
+		"ThirdReading" : " John. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 71
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 19-20",
+		"SecondReading" : " Psalm. 71",
+		"ThirdReading" : " John. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 72
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 21-22",
+		"SecondReading" : " Psalm.72",
+		"ThirdReading" : " John. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 73
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 23-24",
+		"SecondReading" : " Psalm. 73",
+		"ThirdReading" : " John. 14-15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 74
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 25-26",
+		"SecondReading" : " Psalm. 74",
+		"ThirdReading" : " John. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 75
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 27-28",
+		"SecondReading" : " Psalm. 75",
+		"ThirdReading" : " John. 17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 76
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 29-30",
+		"SecondReading" : " Psalm. 76",
+		"ThirdReading" : " John. 18",
+		"BookVersion" : null,
+		"DayOfTheYear" : 77
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 31-32",
+		"SecondReading" : " Psalm. 77",
+		"ThirdReading" : " John. 19",
+		"BookVersion" : null,
+		"DayOfTheYear" : 78
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 33-34",
+		"SecondReading" : " Psalm. 78",
+		"ThirdReading" : " John. 20",
+		"BookVersion" : null,
+		"DayOfTheYear" : 79
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Numbers. 35-36",
+		"SecondReading" : " Psalm. 79",
+		"ThirdReading" : " John. 21",
+		"BookVersion" : null,
+		"DayOfTheYear" : 80
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 1-2",
+		"SecondReading" : " Psalm. 80",
+		"ThirdReading" : " Acts. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 81
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 3-4",
+		"SecondReading" : " Psalm.81",
+		"ThirdReading" : " Acts. 2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 82
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 5-6",
+		"SecondReading" : " Psalm. 82",
+		"ThirdReading" : " Acts. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 83
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 7-8",
+		"SecondReading" : " Psalm. 83",
+		"ThirdReading" : " Acts. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 84
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 9-10",
+		"SecondReading" : " Psalm. 84",
+		"ThirdReading" : " Acts. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 85
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 11-12",
+		"SecondReading" : " Psalm. 85",
+		"ThirdReading" : " Acts. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 86
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 13-14",
+		"SecondReading" : " Psalm. 86",
+		"ThirdReading" : " Acts. 9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 87
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 15-16",
+		"SecondReading" : " Psalm. 87",
+		"ThirdReading" : " Acts. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 88
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 17-18",
+		"SecondReading" : " Psalm. 88",
+		"ThirdReading" : " Acts. 11-12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 89
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 19-20",
+		"SecondReading" : " Psalm. 89",
+		"ThirdReading" : " Acts. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 90
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 21-22",
+		"SecondReading" : " Psalm. 90",
+		"ThirdReading" : " Acts. 14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 91
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 23-24",
+		"SecondReading" : " Psalm. 91",
+		"ThirdReading" : " Acts. 15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 92
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 25-27",
+		"SecondReading" : " Psalm. 92",
+		"ThirdReading" : " Acts. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 93
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 28-29",
+		"SecondReading" : " Psalm. 93",
+		"ThirdReading" : " Acts. 17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 94
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 30-31",
+		"SecondReading" : " Psalm. 94",
+		"ThirdReading" : " Acts. 18",
+		"BookVersion" : null,
+		"DayOfTheYear" : 95
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 32",
+		"SecondReading" : " Psalm. 95",
+		"ThirdReading" : " Acts. 19",
+		"BookVersion" : null,
+		"DayOfTheYear" : 96
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Deut. 33-34",
+		"SecondReading" : " Psalm. 96",
+		"ThirdReading" : " Acts. 20",
+		"BookVersion" : null,
+		"DayOfTheYear" : 97
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 1-2",
+		"SecondReading" : " Psalm. 97",
+		"ThirdReading" : " Acts.21",
+		"BookVersion" : null,
+		"DayOfTheYear" : 98
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 3-4",
+		"SecondReading" : " Psalm. 98",
+		"ThirdReading" : " Acts. 22",
+		"BookVersion" : null,
+		"DayOfTheYear" : 99
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 5-6",
+		"SecondReading" : " Psalm. 99",
+		"ThirdReading" : " Acts. 23",
+		"BookVersion" : null,
+		"DayOfTheYear" : 100
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 7-8",
+		"SecondReading" : " Psalm. 100",
+		"ThirdReading" : " Acts. 24-25",
+		"BookVersion" : null,
+		"DayOfTheYear" : 101
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 9-10",
+		"SecondReading" : " Psalm. 101",
+		"ThirdReading" : " Acts. 26",
+		"BookVersion" : null,
+		"DayOfTheYear" : 102
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 11-12",
+		"SecondReading" : " Psalm. 102",
+		"ThirdReading" : " Acts. 27",
+		"BookVersion" : null,
+		"DayOfTheYear" : 103
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 13-14",
+		"SecondReading" : " Psalm. 103",
+		"ThirdReading" : " Acts. 28",
+		"BookVersion" : null,
+		"DayOfTheYear" : 104
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 15-16",
+		"SecondReading" : " Psalm. 104",
+		"ThirdReading" : " Romans. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 105
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 17-18",
+		"SecondReading" : " Psalm. 105",
+		"ThirdReading" : " Romans. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 106
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 19-20",
+		"SecondReading" : " Psalm. 106",
+		"ThirdReading" : " Romans. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 107
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 21-22",
+		"SecondReading" : " Psalm. 107",
+		"ThirdReading" : " Romans. 7-8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 108
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joshua. 23-24",
+		"SecondReading" : " Psalm. 108",
+		"ThirdReading" : " Romans. 9-10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 109
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 1-2",
+		"SecondReading" : " Psalm. 109",
+		"ThirdReading" : " Romans. 11-12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 110
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 3-4",
+		"SecondReading" : " Psalm. 110",
+		"ThirdReading" : " Romans. 13-14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 111
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 5-6",
+		"SecondReading" : " Psalm. 111",
+		"ThirdReading" : " Romans. 15-16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 112
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 7-8",
+		"SecondReading" : " Psalm. 112",
+		"ThirdReading" : " 1 Corinthians. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 113
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 9",
+		"SecondReading" : " Psalm. 113",
+		"ThirdReading" : " 1 Corinthians. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 114
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 10-11",
+		"SecondReading" : " Psalm. 114",
+		"ThirdReading" : " 1 Corinthians. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 115
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 12-13",
+		"SecondReading" : " Psalm. 115",
+		"ThirdReading" : " 1 Corinthians. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 116
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 14-15",
+		"SecondReading" : " Psalm. 116",
+		"ThirdReading" : " 1 Corinthians. 8-9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 117
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 16-17",
+		"SecondReading" : " Psalm. 117",
+		"ThirdReading" : " 1 Corinthians. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 118
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 18-19",
+		"SecondReading" : " Psalm. 118",
+		"ThirdReading" : " 1 Corinthians. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 119
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Judges. 20-21",
+		"SecondReading" : " Psalm. 119:1-88",
+		"ThirdReading" : " 1 Corinthians. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 120
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ruth. 1-4",
+		"SecondReading" : " Psalm. 119:89-176",
+		"ThirdReading" : " 1 Corinthians. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 121
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 1-2",
+		"SecondReading" : " Psalm. 120",
+		"ThirdReading" : " 1 Corinthians. 14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 122
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 3-4",
+		"SecondReading" : " Psalm. 121",
+		"ThirdReading" : " 1 Corinthians. 15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 123
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 5-6",
+		"SecondReading" : " Psalm. 122",
+		"ThirdReading" : " 1 Corinthians. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 124
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 7-8",
+		"SecondReading" : " Psalm. 123",
+		"ThirdReading" : " 2 Corinthians. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 125
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 9-10",
+		"SecondReading" : " Psalm. 124",
+		"ThirdReading" : " 2 Corinthians. 2-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 126
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 11-12",
+		"SecondReading" : " Psalm. 125",
+		"ThirdReading" : " 2 Corinthians. 4-5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 127
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 13-14",
+		"SecondReading" : " Psalm. 126",
+		"ThirdReading" : " 2 Corinthians. 6-7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 128
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 15-16",
+		"SecondReading" : " Psalm. 127",
+		"ThirdReading" : " 2 Corinthians. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 129
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 17",
+		"SecondReading" : " Psalm. 128",
+		"ThirdReading" : " 2 Corinthians. 9-10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 130
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 18-19",
+		"SecondReading" : " Psalm. 129",
+		"ThirdReading" : " 2 Corinthians. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 131
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 20-21",
+		"SecondReading" : " Psalm. 130",
+		"ThirdReading" : " 2 Corinthians. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 132
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 22-23",
+		"SecondReading" : " Psalm. 131",
+		"ThirdReading" : " 2 Corinthians. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 133
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 24-25",
+		"SecondReading" : " Psalm. 132",
+		"ThirdReading" : " Gal. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 134
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 26-27",
+		"SecondReading" : " Psalm. 133",
+		"ThirdReading" : " Gal. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 135
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 28-29",
+		"SecondReading" : " Psalm. 134",
+		"ThirdReading" : " Gal. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 136
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Samuel. 30-31",
+		"SecondReading" : " Psalm. 135",
+		"ThirdReading" : " Eph 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 137
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 1-2",
+		"SecondReading" : " Psalm. 136",
+		"ThirdReading" : " Eph. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 138
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 3-4",
+		"SecondReading" : " Psalm. 137",
+		"ThirdReading" : " Eph. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 139
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 5-6",
+		"SecondReading" : " Psalm. 138",
+		"ThirdReading" : " Phill. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 140
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel 7-8",
+		"SecondReading" : " Psalm. 139",
+		"ThirdReading" : " Phill. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 141
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 9-10",
+		"SecondReading" : " Psalm. 140",
+		"ThirdReading" : " Col. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 142
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 11-12",
+		"SecondReading" : " Psalm. 141",
+		"ThirdReading" : " Col. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 143
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 13-14",
+		"SecondReading" : " Psalm. 142",
+		"ThirdReading" : " 1 Thess. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 144
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 15-16",
+		"SecondReading" : " Psalm. 143",
+		"ThirdReading" : " 1 Thess. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 145
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 17-18",
+		"SecondReading" : " Psalm. 144",
+		"ThirdReading" : " 1 Thess. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 146
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 19",
+		"SecondReading" : " Psalm. 145",
+		"ThirdReading" : " 2 Thess. 1-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 147
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 20-21",
+		"SecondReading" : " Psalm. 146",
+		"ThirdReading" : " 1 Tim. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 148
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 22",
+		"SecondReading" : " Psalm. 147",
+		"ThirdReading" : " 1 Tim. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 149
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Samuel. 23-24",
+		"SecondReading" : " Psalm. 148",
+		"ThirdReading" : " 1 Tim. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 150
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 1",
+		"SecondReading" : " Psalm. 149",
+		"ThirdReading" : " 2 Tim. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 151
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 2-3",
+		"SecondReading" : " Psalm. 150",
+		"ThirdReading" : " 2 Tim. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 152
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 4-5",
+		"SecondReading" : " Proverbs. 1",
+		"ThirdReading" : " Titus. 1-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 153
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 6-7",
+		"SecondReading" : " Proverbs. 2",
+		"ThirdReading" : " Philem. 1-25",
+		"BookVersion" : null,
+		"DayOfTheYear" : 154
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 8",
+		"SecondReading" : " Proverbs. 3",
+		"ThirdReading" : " Heb. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 155
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 9-10",
+		"SecondReading" : " Proverbs. 4",
+		"ThirdReading" : " Heb. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 156
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 11-12",
+		"SecondReading" : " Proverbs. 5",
+		"ThirdReading" : " Heb. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 157
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 13-14",
+		"SecondReading" : " Proverbs. 6",
+		"ThirdReading" : " Heb. 7-8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 158
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 15-16",
+		"SecondReading" : " Proverbs. 7",
+		"ThirdReading" : " Heb. 9-10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 159
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 17-18",
+		"SecondReading" : " Proverbs. 8",
+		"ThirdReading" : " Heb. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 160
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 19-20",
+		"SecondReading" : " Proverbs. 9",
+		"ThirdReading" : " Heb. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 161
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Kings. 21-22",
+		"SecondReading" : " Proverbs. 10",
+		"ThirdReading" : " Heb. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 162
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 1-2",
+		"SecondReading" : " Proverbs. 11",
+		"ThirdReading" : " James. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 163
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 3-4",
+		"SecondReading" : " Proverbs. 12",
+		"ThirdReading" : " James. 2-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 164
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 5-6",
+		"SecondReading" : " Proverbs. 13",
+		"ThirdReading" : " James. 4-5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 165
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 7-8",
+		"SecondReading" : " Proverbs. 14",
+		"ThirdReading" : " 1 Peter. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 166
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 9-10",
+		"SecondReading" : " Proverbs. 15",
+		"ThirdReading" : " 1 Peter. 2-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 167
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 11-12",
+		"SecondReading" : " Proverbs. 16",
+		"ThirdReading" : " 1 Peter. 4-5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 168
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 13-14",
+		"SecondReading" : " Proverbs. 17",
+		"ThirdReading" : " 2 Peter. 1-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 169
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 15-16",
+		"SecondReading" : " Proverbs. 18",
+		"ThirdReading" : " 1 John. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 170
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 17",
+		"SecondReading" : " Proverbs. 19",
+		"ThirdReading" : " 1 John. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 171
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 18-19",
+		"SecondReading" : " Proverbs. 20",
+		"ThirdReading" : " 1 John. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 172
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 20-21",
+		"SecondReading" : " Proverbs. 21",
+		"ThirdReading" : " 2 John. ",
+		"BookVersion" : null,
+		"DayOfTheYear" : 173
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 22-23",
+		"SecondReading" : " Proverbs. 22",
+		"ThirdReading" : " 3 John.",
+		"BookVersion" : null,
+		"DayOfTheYear" : 174
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Kings. 24-25",
+		"SecondReading" : " Proverbs. 23",
+		"ThirdReading" : " Jude. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 175
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 1",
+		"SecondReading" : " Proverbs. 24",
+		"ThirdReading" : " Revelation. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 176
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 2-3",
+		"SecondReading" : " Proverbs. 25",
+		"ThirdReading" : " Revelation. 3-5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 177
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 4-5",
+		"SecondReading" : " Proverbs. 26",
+		"ThirdReading" : " Revelation. 6-7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 178
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 6-7",
+		"SecondReading" : " Proverbs. 27",
+		"ThirdReading" : " Revelation. 8-10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 179
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 8-9",
+		"SecondReading" : " Proverbs. 28",
+		"ThirdReading" : " Revelation. 11-12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 180
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 10-11",
+		"SecondReading" : " Proverbs. 29",
+		"ThirdReading" : " Revelation. 13-14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 181
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 12-13",
+		"SecondReading" : " Proverbs. 30",
+		"ThirdReading" : " Revelation. 15-17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 182
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 14-15",
+		"SecondReading" : " Proverbs. 31",
+		"ThirdReading" : " Revelation. 18-19",
+		"BookVersion" : null,
+		"DayOfTheYear" : 183
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 16-17",
+		"SecondReading" : " Psalm. 1",
+		"ThirdReading" : " Revelation. 20-21",
+		"BookVersion" : null,
+		"DayOfTheYear" : 184
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 18-19",
+		"SecondReading" : " Psalm. 2",
+		"ThirdReading" : " Matthew. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 185
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 20-21",
+		"SecondReading" : " Psalm. 3",
+		"ThirdReading" : " Matthew. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 186
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 22-23",
+		"SecondReading" : " Psalm. 4",
+		"ThirdReading" : " Matthew. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 187
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 24-25",
+		"SecondReading" : " Psalm. 5",
+		"ThirdReading" : "  Matthew. 6-7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 188
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 26-27",
+		"SecondReading" : " Psalm. 6",
+		"ThirdReading" : " Matthew. 8-9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 189
+	}, {
+		"Id" : 0,
+		"FirstReading" : "1 Chron. 28-29",
+		"SecondReading" : " Psalm. 7",
+		"ThirdReading" : " Matthew. 10-11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 190
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 1-2",
+		"SecondReading" : " Psalm. 8",
+		"ThirdReading" : " Matthew. 12 ",
+		"BookVersion" : null,
+		"DayOfTheYear" : 191
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 3-4",
+		"SecondReading" : " Psalm. 9",
+		"ThirdReading" : " Matthew. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 192
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 5-6",
+		"SecondReading" : " Psalm. 10",
+		"ThirdReading" : " Matthew. 14-15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 193
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 7-8",
+		"SecondReading" : " Psalm. 11",
+		"ThirdReading" : " Matthew. 16-17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 194
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 9-10",
+		"SecondReading" : " Psalm. 12",
+		"ThirdReading" : " Matthew. 18",
+		"BookVersion" : null,
+		"DayOfTheYear" : 195
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 11-12",
+		"SecondReading" : " Psalm. 13",
+		"ThirdReading" : " Matthew. 19-20",
+		"BookVersion" : null,
+		"DayOfTheYear" : 196
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 13-14",
+		"SecondReading" : " Psalm. 14",
+		"ThirdReading" : " Matthew. 21",
+		"BookVersion" : null,
+		"DayOfTheYear" : 197
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 15-16",
+		"SecondReading" : " Ps 15",
+		"ThirdReading" : " Matthew. 22",
+		"BookVersion" : null,
+		"DayOfTheYear" : 198
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 17-18",
+		"SecondReading" : " Psalm. 16",
+		"ThirdReading" : " Matthew. 23",
+		"BookVersion" : null,
+		"DayOfTheYear" : 199
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 19-20",
+		"SecondReading" : " Psalm. 17",
+		"ThirdReading" : " Matthew.24",
+		"BookVersion" : null,
+		"DayOfTheYear" : 200
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 21-22",
+		"SecondReading" : " Psalm. 18",
+		"ThirdReading" : " Matthew. 25",
+		"BookVersion" : null,
+		"DayOfTheYear" : 201
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 23-24",
+		"SecondReading" : " Psalm. 19",
+		"ThirdReading" : " Matthew.26",
+		"BookVersion" : null,
+		"DayOfTheYear" : 202
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 25-26",
+		"SecondReading" : " Psalm. 20",
+		"ThirdReading" : " Matthew. 27",
+		"BookVersion" : null,
+		"DayOfTheYear" : 203
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 27-28",
+		"SecondReading" : " Psalm. 21",
+		"ThirdReading" : " Matthew. 28",
+		"BookVersion" : null,
+		"DayOfTheYear" : 204
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 29-30",
+		"SecondReading" : " Psalm. 22",
+		"ThirdReading" : " Mark. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 205
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 31-32",
+		"SecondReading" : " Psalm. 23",
+		"ThirdReading" : " Mark. 2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 206
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 33-34",
+		"SecondReading" : " Psalm. 24",
+		"ThirdReading" : " Mark. 3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 207
+	}, {
+		"Id" : 0,
+		"FirstReading" : "2 Chron. 35-36",
+		"SecondReading" : " Psalm. 25",
+		"ThirdReading" : " Mark. 4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 208
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezra. 1-2",
+		"SecondReading" : " Psalm. 26",
+		"ThirdReading" : " Mark. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 209
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezra. 3-4",
+		"SecondReading" : " Psalm. 27",
+		"ThirdReading" : " Mark.6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 210
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezra. 5-6",
+		"SecondReading" : " Psalm. 28",
+		"ThirdReading" : " Mark. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 211
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezra. 7-8",
+		"SecondReading" : " Psalm. 29",
+		"ThirdReading" : " Mark. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 212
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezra. 9-10",
+		"SecondReading" : " Psalm. 30",
+		"ThirdReading" : " Mark. 9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 213
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Neh. 1-2",
+		"SecondReading" : " Psalm. 31",
+		"ThirdReading" : " Mark. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 214
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Neh. 3-4",
+		"SecondReading" : " Psalm. 32",
+		"ThirdReading" : " Mark. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 215
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Neh. 5-6",
+		"SecondReading" : " Psalm. 33",
+		"ThirdReading" : " Mark. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 216
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Neh. 7",
+		"SecondReading" : " Psalm. 34",
+		"ThirdReading" : " Mark. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 217
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Neh. 8-9",
+		"SecondReading" : " Psalm. 35",
+		"ThirdReading" : " Mark. 14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 218
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Neh. 10-11",
+		"SecondReading" : " Psalm. 36",
+		"ThirdReading" : " Mark. 15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 219
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Neh. 12-13",
+		"SecondReading" : " Psalm. 37",
+		"ThirdReading" : " Mark. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 220
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Esth. 1-2",
+		"SecondReading" : " Psalm. 38",
+		"ThirdReading" : " Luke. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 221
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Esth. 3-4",
+		"SecondReading" : " Psalm. 39",
+		"ThirdReading" : " Luke. 2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 222
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Esth. 5-6",
+		"SecondReading" : " Psalm. 40",
+		"ThirdReading" : " Luke. 3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 223
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Esth. 7-8",
+		"SecondReading" : " Psalm. 41",
+		"ThirdReading" : " Luke. 4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 224
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Esth. 9-10",
+		"SecondReading" : " Ps. 42",
+		"ThirdReading" : " Luke. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 225
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.1-2",
+		"SecondReading" : " Psalm. 43",
+		"ThirdReading" : " Luke. 6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 226
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.3-4",
+		"SecondReading" : " Psalm. 44",
+		"ThirdReading" : " Luke. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 227
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.5-6",
+		"SecondReading" : " Psalm. 45",
+		"ThirdReading" : " Luke. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 228
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.7-8",
+		"SecondReading" : " Psalm. 46",
+		"ThirdReading" : " Luke. 9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 229
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.9-10",
+		"SecondReading" : " Psalm. 47",
+		"ThirdReading" : " Luke. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 230
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.11-12",
+		"SecondReading" : " Psalm. 48",
+		"ThirdReading" : " Luke. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 231
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job. 13-14",
+		"SecondReading" : " Psalm. 49",
+		"ThirdReading" : " Luke. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 232
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.15-16",
+		"SecondReading" : " Psalm. 50",
+		"ThirdReading" : " Luke. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 233
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.17-18",
+		"SecondReading" : " Psalm. 51",
+		"ThirdReading" : " Luke. 14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 234
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job. 19-20",
+		"SecondReading" : " Psalm. 52",
+		"ThirdReading" : " Luke. 15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 235
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.21-22",
+		"SecondReading" : " Ps 53",
+		"ThirdReading" : " Luke. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 236
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.23-25",
+		"SecondReading" : " Psalm. 54",
+		"ThirdReading" : "  Luke. 17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 237
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.26-28",
+		"SecondReading" : " Psalm. 55",
+		"ThirdReading" : " Luke. 18",
+		"BookVersion" : null,
+		"DayOfTheYear" : 238
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.29-30",
+		"SecondReading" : " Psalm. 56",
+		"ThirdReading" : " Luke. 19",
+		"BookVersion" : null,
+		"DayOfTheYear" : 239
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.31-32",
+		"SecondReading" : " Psalm. 57",
+		"ThirdReading" : " Luke. 20",
+		"BookVersion" : null,
+		"DayOfTheYear" : 240
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.33-34",
+		"SecondReading" : " Psalm. 58",
+		"ThirdReading" : " Luke. 21",
+		"BookVersion" : null,
+		"DayOfTheYear" : 241
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.35-36",
+		"SecondReading" : " Psalm. 59",
+		"ThirdReading" : " Luke. 22",
+		"BookVersion" : null,
+		"DayOfTheYear" : 242
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.37-38",
+		"SecondReading" : " Psalm. 60",
+		"ThirdReading" : " Luke. 23",
+		"BookVersion" : null,
+		"DayOfTheYear" : 243
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.39-40",
+		"SecondReading" : " Psalm. 61",
+		"ThirdReading" : " Luke. 24",
+		"BookVersion" : null,
+		"DayOfTheYear" : 244
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Job.41-42",
+		"SecondReading" : " Psalm. 62",
+		"ThirdReading" : " John. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 245
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ecclesiastes. 1-2",
+		"SecondReading" : " Psalm. 63",
+		"ThirdReading" : " John. 2-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 246
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ecclesiastes. 3-4",
+		"SecondReading" : " Psalm. 64",
+		"ThirdReading" : " John. 4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 247
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ecclesiastes. 5-6",
+		"SecondReading" : " Psalm. 65",
+		"ThirdReading" : " John. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 248
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ecclesiastes. 7-8",
+		"SecondReading" : " Psalm. 66",
+		"ThirdReading" : " John. 6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 249
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ecclesiastes. 9-10",
+		"SecondReading" : " Psalm. 67",
+		"ThirdReading" : " John. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 250
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ecclesiastes. 11-12",
+		"SecondReading" : " Psalm. 68",
+		"ThirdReading" : " John. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 251
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Song of Sol. 1-2",
+		"SecondReading" : " Psalm. 69",
+		"ThirdReading" : " John. 9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 252
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Song of Sol. 3-4",
+		"SecondReading" : " Psalm. 70",
+		"ThirdReading" : " John. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 253
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Song of Sol. 5-6",
+		"SecondReading" : " Psalm. 71",
+		"ThirdReading" : " John. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 254
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Song of Sol. 7-8",
+		"SecondReading" : " Psalm. 72",
+		"ThirdReading" : " John. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 255
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 1-2",
+		"SecondReading" : " Psalm. 73",
+		"ThirdReading" : " John. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 256
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 3-5",
+		"SecondReading" : " Psalm. 74",
+		"ThirdReading" : " John. 14-15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 257
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 6-8",
+		"SecondReading" : " Psalm. 75",
+		"ThirdReading" : " John. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 258
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 9-10",
+		"SecondReading" : " Psalm. 76",
+		"ThirdReading" : " John. 17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 259
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 11-13",
+		"SecondReading" : " Psalm. 77",
+		"ThirdReading" : " John. 18",
+		"BookVersion" : null,
+		"DayOfTheYear" : 260
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 14-15",
+		"SecondReading" : " Psalm. 78",
+		"ThirdReading" : " John. 19",
+		"BookVersion" : null,
+		"DayOfTheYear" : 261
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 16-17",
+		"SecondReading" : " Psalm. 79",
+		"ThirdReading" : " John.20",
+		"BookVersion" : null,
+		"DayOfTheYear" : 262
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 18-19",
+		"SecondReading" : " Psalm. 80",
+		"ThirdReading" : " John. 21",
+		"BookVersion" : null,
+		"DayOfTheYear" : 263
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 20-22",
+		"SecondReading" : " Psalm. 81",
+		"ThirdReading" : " Acts. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 264
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 23-24",
+		"SecondReading" : " Psalm. 82",
+		"ThirdReading" : " Acts. 2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 265
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 25-26",
+		"SecondReading" : " Psalm. 83",
+		"ThirdReading" : " Acts. 3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 266
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 27-28",
+		"SecondReading" : " Psalm. 84",
+		"ThirdReading" : " Acts. 4-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 267
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 29-30",
+		"SecondReading" : " Psalm. 85",
+		"ThirdReading" : " Acts. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 268
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 31-32",
+		"SecondReading" : " Psalm. 86",
+		"ThirdReading" : " Acts. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 269
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 33-34",
+		"SecondReading" : " Psalm. 87",
+		"ThirdReading" : " Acts. 9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 270
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 35-36",
+		"SecondReading" : " Psalm. 88",
+		"ThirdReading" : " Acts. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 271
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 37-38",
+		"SecondReading" : " Psalm. 89",
+		"ThirdReading" : " Acts. 11-12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 272
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 39-40",
+		"SecondReading" : " Psalm. 90",
+		"ThirdReading" : " Acts. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 273
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 41-42",
+		"SecondReading" : " Psalm. 91",
+		"ThirdReading" : " Acts. 14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 274
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 43-44",
+		"SecondReading" : " Psalm. 92",
+		"ThirdReading" : " Acts. 15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 275
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 45-46",
+		"SecondReading" : " Psalm. 93",
+		"ThirdReading" : " Acts. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 276
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 47-48",
+		"SecondReading" : " Psalm. 94",
+		"ThirdReading" : " Acts. 17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 277
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 49-50",
+		"SecondReading" : " Psalm. 95",
+		"ThirdReading" : " Acts. 18",
+		"BookVersion" : null,
+		"DayOfTheYear" : 278
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 51-52",
+		"SecondReading" : " Psalm. 96",
+		"ThirdReading" : " Acts. 19",
+		"BookVersion" : null,
+		"DayOfTheYear" : 279
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 53-54",
+		"SecondReading" : " Psalm. 97",
+		"ThirdReading" : " Acts. 20",
+		"BookVersion" : null,
+		"DayOfTheYear" : 280
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 55-56",
+		"SecondReading" : " Psalm. 98",
+		"ThirdReading" : " ",
+		"BookVersion" : null,
+		"DayOfTheYear" : 281
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 57-58",
+		"SecondReading" : " Psalm. 99",
+		"ThirdReading" : " Acts. 22",
+		"BookVersion" : null,
+		"DayOfTheYear" : 282
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 59-60",
+		"SecondReading" : " Psalm. 100",
+		"ThirdReading" : " Acts. 23",
+		"BookVersion" : null,
+		"DayOfTheYear" : 283
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 61-62",
+		"SecondReading" : " Psalm. 101",
+		"ThirdReading" : " Acts. 24-25",
+		"BookVersion" : null,
+		"DayOfTheYear" : 284
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 63-64",
+		"SecondReading" : " Psalm. 102",
+		"ThirdReading" : " Acts. 26",
+		"BookVersion" : null,
+		"DayOfTheYear" : 285
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Isaiah. 65-66",
+		"SecondReading" : " Psalm. 103",
+		"ThirdReading" : " Acts. 27",
+		"BookVersion" : null,
+		"DayOfTheYear" : 286
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 1-2",
+		"SecondReading" : " Psalm. 104",
+		"ThirdReading" : " Acts. 28",
+		"BookVersion" : null,
+		"DayOfTheYear" : 287
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 3-4",
+		"SecondReading" : " Psalm. 105",
+		"ThirdReading" : " Romans. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 288
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 5-6",
+		"SecondReading" : " Psalm. 106",
+		"ThirdReading" : " Romans. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 289
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 7-8",
+		"SecondReading" : " Psalm. 107",
+		"ThirdReading" : " Romans. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 290
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 9-10",
+		"SecondReading" : " Psalm. 108",
+		"ThirdReading" : " Romans. 7-8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 291
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 11-12",
+		"SecondReading" : " Psalm. 109",
+		"ThirdReading" : " Romans. 9-10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 292
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 13-14",
+		"SecondReading" : " Psalm. 110",
+		"ThirdReading" : " Romans. 11-12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 293
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 15-16",
+		"SecondReading" : " Psalm. 111",
+		"ThirdReading" : " Romans. 13-14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 294
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 17-18",
+		"SecondReading" : " Psalm. 112",
+		"ThirdReading" : " Romans. 15-16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 295
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 19-20",
+		"SecondReading" : " Psalm. 113",
+		"ThirdReading" : " 1 Corinthians. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 296
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 21-22",
+		"SecondReading" : " Psalm. 114",
+		"ThirdReading" : " 1 Corinthians. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 297
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 23-24",
+		"SecondReading" : " Psalm. 115",
+		"ThirdReading" : " 1 Corinthians. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 298
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 25-26",
+		"SecondReading" : " Psalm. 116",
+		"ThirdReading" : " 1 Corinthians. 7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 299
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 27-28",
+		"SecondReading" : " Psalm. 117",
+		"ThirdReading" : " 1 Corinthians. 8-9",
+		"BookVersion" : null,
+		"DayOfTheYear" : 300
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 29-30",
+		"SecondReading" : " Psalm. 118",
+		"ThirdReading" : " 1 Corinthians. 10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 301
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 31-32",
+		"SecondReading" : " Psalm. 119: 1-64",
+		"ThirdReading" : " 1 Corinthians. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 302
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 33-34",
+		"SecondReading" : " Psalm. 119:65-120",
+		"ThirdReading" : " 1 Corinthians. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 303
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 35-36",
+		"SecondReading" : " Psalm. 119:121-176",
+		"ThirdReading" : " 1 Corinthians. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 304
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 37-38",
+		"SecondReading" : " Psalm. 120",
+		"ThirdReading" : " 1 Corinthians. 14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 305
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 39-40",
+		"SecondReading" : " Psalm. 121",
+		"ThirdReading" : " 1 Corinthians. 15",
+		"BookVersion" : null,
+		"DayOfTheYear" : 306
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 41-42",
+		"SecondReading" : " Psalm. 122",
+		"ThirdReading" : " 1 Corinthians. 16",
+		"BookVersion" : null,
+		"DayOfTheYear" : 307
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 43-44",
+		"SecondReading" : " Psalm. 123",
+		"ThirdReading" : " 2 Corinthians. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 308
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 45-46",
+		"SecondReading" : " Psalm. 124",
+		"ThirdReading" : " 2 Corinthians. 2-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 309
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 47-48",
+		"SecondReading" : " Psalm. 125",
+		"ThirdReading" : " 2 Corinthians. 4-5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 310
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 49-50",
+		"SecondReading" : " Psalm. 126",
+		"ThirdReading" : " 2 Corinthians. 6-7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 311
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jeremiah. 51-52",
+		"SecondReading" : " Psalm. 127",
+		"ThirdReading" : " 2 Corinthians. 8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 312
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Lam. 1-2",
+		"SecondReading" : " Psalm. 128",
+		"ThirdReading" : " 2 Corinthians. 9-10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 313
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Lam. 3",
+		"SecondReading" : " Psalm. 129",
+		"ThirdReading" : " 2 Corinthians. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 314
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Lam. 4-5",
+		"SecondReading" : " Psalm. 130",
+		"ThirdReading" : " 2 Corinthians. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 315
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 1-2",
+		"SecondReading" : " Psalm. 131",
+		"ThirdReading" : " 2 Corinthians. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 316
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 3-4",
+		"SecondReading" : " Psalm. 132",
+		"ThirdReading" : " Gal. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 317
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 5-6",
+		"SecondReading" : " Psalm. 133",
+		"ThirdReading" : " Gal. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 318
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 7-8",
+		"SecondReading" : " Psalm. 134",
+		"ThirdReading" : " Gal. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 319
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 9-10",
+		"SecondReading" : " Psalm. 135",
+		"ThirdReading" : " Eph. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 320
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 11-12",
+		"SecondReading" : " Psalm. 136",
+		"ThirdReading" : " Eph. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 321
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 13-14",
+		"SecondReading" : " Psalm. 137",
+		"ThirdReading" : " Eph. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 322
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 15-16",
+		"SecondReading" : " Psalm. 138",
+		"ThirdReading" : " Phill. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 323
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 17-18",
+		"SecondReading" : " Psalm. 139",
+		"ThirdReading" : " Phill. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 324
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 19-20",
+		"SecondReading" : " Psalm. 140",
+		"ThirdReading" : " Col. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 325
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 21-22",
+		"SecondReading" : " Psalm. 141",
+		"ThirdReading" : " Col. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 326
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 23-24",
+		"SecondReading" : " Psalm. 142",
+		"ThirdReading" : " 1 Thess. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 327
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 25-26",
+		"SecondReading" : " Psalm. 143",
+		"ThirdReading" : " 1 Thess. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 328
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 27-28",
+		"SecondReading" : " Psalm. 144",
+		"ThirdReading" : " 1 Thess. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 329
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 29-30",
+		"SecondReading" : " Psalm. 145",
+		"ThirdReading" : " 2 Thess. 1-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 330
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 31-32",
+		"SecondReading" : " Psalm. 146",
+		"ThirdReading" : " 1 Tim. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 331
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 33-34",
+		"SecondReading" : " Psalm. 147",
+		"ThirdReading" : " 1 Tim. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 332
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 35-36",
+		"SecondReading" : " Psalm. 148",
+		"ThirdReading" : " 1 Tim. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 333
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 37-38",
+		"SecondReading" : " Psalm. 149",
+		"ThirdReading" : " 2 Tim. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 334
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 39-40",
+		"SecondReading" : " Psalm. 150",
+		"ThirdReading" : " 2 Tim. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 335
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 41-42",
+		"SecondReading" : " Proverbs. 1",
+		"ThirdReading" : " Titus. 1-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 336
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 43-44",
+		"SecondReading" : " Proverbs. 2",
+		"ThirdReading" : " Philem. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 337
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 45-46",
+		"SecondReading" : " Proverbs. 3",
+		"ThirdReading" : " Heb. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 338
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Ezek. 47-48",
+		"SecondReading" : " Proverbs. 4",
+		"ThirdReading" : " Heb. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 339
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Dan. 1-2",
+		"SecondReading" : " Proverbs. 5",
+		"ThirdReading" : " Heb. 5-6",
+		"BookVersion" : null,
+		"DayOfTheYear" : 340
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Dan. 3-4",
+		"SecondReading" : " Proverbs. 6",
+		"ThirdReading" : " Heb. 7-8",
+		"BookVersion" : null,
+		"DayOfTheYear" : 341
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Dan. 5-6",
+		"SecondReading" : " Proverbs. 7",
+		"ThirdReading" : " Heb.9-10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 342
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Dan. 7-8",
+		"SecondReading" : " Proverbs. 8",
+		"ThirdReading" : " Heb. 11",
+		"BookVersion" : null,
+		"DayOfTheYear" : 343
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Dan. 9-10",
+		"SecondReading" : " Proverbs. 9",
+		"ThirdReading" : " Heb. 12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 344
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Dan. 11-12",
+		"SecondReading" : " Proverbs. 10",
+		"ThirdReading" : " Heb. 13",
+		"BookVersion" : null,
+		"DayOfTheYear" : 345
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Hosea. 1-3",
+		"SecondReading" : " Proverbs. 11",
+		"ThirdReading" : " James. 1-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 346
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Hosea. 4-6",
+		"SecondReading" : " Proverbs. 12",
+		"ThirdReading" : " James. 4-5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 347
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Hosea. 7-8",
+		"SecondReading" : " Proverbs. 13",
+		"ThirdReading" : " 1 Peter. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 348
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Hosea. 9-11",
+		"SecondReading" : " Proverbs. 14",
+		"ThirdReading" : " 1 Peter. 2-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 349
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Hosea. 12-14",
+		"SecondReading" : " Proverbs. 15",
+		"ThirdReading" : " 1 Peter. 4-5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 350
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Joel. 1-3",
+		"SecondReading" : " Proverbs. 16",
+		"ThirdReading" : " 2 Peter. 1-3",
+		"BookVersion" : null,
+		"DayOfTheYear" : 351
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Amos. 1-3",
+		"SecondReading" : " Proverbs. 17",
+		"ThirdReading" : " 1 John. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 352
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Amos. 4-6",
+		"SecondReading" : " Proverbs. 18",
+		"ThirdReading" : " 1 John. 3-4",
+		"BookVersion" : null,
+		"DayOfTheYear" : 353
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Amos. 7-9",
+		"SecondReading" : " Proverbs. 19",
+		"ThirdReading" : " 1 John. 5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 354
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Obad. 1",
+		"SecondReading" : " Proverbs. 20",
+		"ThirdReading" : " 2 John. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 355
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Jonah 1-4",
+		"SecondReading" : " Proverbs. 21",
+		"ThirdReading" : " 3 John. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 356
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Mic. 1-4",
+		"SecondReading" : " Proverbs. 22",
+		"ThirdReading" : " Jude. 1",
+		"BookVersion" : null,
+		"DayOfTheYear" : 357
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Mic. 5-7",
+		"SecondReading" : " Proverbs. 23",
+		"ThirdReading" : " Revelation. 1-2",
+		"BookVersion" : null,
+		"DayOfTheYear" : 358
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Nah. 1-3",
+		"SecondReading" : " Proverbs. 24",
+		"ThirdReading" : " Revelation. 3-5",
+		"BookVersion" : null,
+		"DayOfTheYear" : 359
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Habb. 1-3",
+		"SecondReading" : " Proverbs. 25",
+		"ThirdReading" : " Revelation. 6-7",
+		"BookVersion" : null,
+		"DayOfTheYear" : 360
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Zeph. 1-3",
+		"SecondReading" : " Proverbs. 26",
+		"ThirdReading" : " Revelation. 8-10",
+		"BookVersion" : null,
+		"DayOfTheYear" : 361
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Hagg. 1-2",
+		"SecondReading" : " Proverbs. 27",
+		"ThirdReading" : " Revelation. 11-12",
+		"BookVersion" : null,
+		"DayOfTheYear" : 362
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Zech. 1-4",
+		"SecondReading" : " Proverbs. 28",
+		"ThirdReading" : " Revelation. 13-14",
+		"BookVersion" : null,
+		"DayOfTheYear" : 363
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Zech. 5-9",
+		"SecondReading" : " Proverbs. 29",
+		"ThirdReading" : " Revelation. 15-17",
+		"BookVersion" : null,
+		"DayOfTheYear" : 364
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Zech. 10-14",
+		"SecondReading" : " Proverbs. 30",
+		"ThirdReading" : " Revelation. 18-19",
+		"BookVersion" : null,
+		"DayOfTheYear" : 365
+	}, {
+		"Id" : 0,
+		"FirstReading" : "Mal. 1-4",
+		"SecondReading" : " Proverbs. 31",
+		"ThirdReading" : " Revelation. 20-22",
+		"BookVersion" : null,
+		"DayOfTheYear" : 366
+	}
+]

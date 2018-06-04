@@ -1,0 +1,319 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Set padding to display errors that occur during databinding */
+.padding-error {
+    padding-top: 20px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors,
+.validationMessage {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+/* PANELS */
+.page-heading {
+    border-top: 0;
+    padding: 0 10px 20px 10px;
+}
+
+.panel-heading h1,
+.panel-heading h2 {
+    margin-bottom: 5px;
+}
+
+.ibox-content.text-box {
+    padding-bottom: 0;
+    padding-top: 15px;
+}
+
+.ibox-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+    border-color: #e7eaec;
+    border-style: solid solid none;
+    border-width: 2px 0 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 15px 15px 7px;
+    min-height: 48px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+h6 {
+    font-size: 10px;
+}
+
+.ibox-footer {
+    color: inherit;
+    border-top: 1px solid #e7eaec;
+    font-size: 90%;
+    background: #ffffff;
+    padding: 10px 15px;
+}
+
+.ibox-content {
+    clear: both;
+}
+
+.ibox-heading {
+    background-color: #f3f6fb;
+    border-bottom: none;
+}
+
+    .ibox-heading h3 {
+        font-weight: 200;
+        font-size: 24px;
+    }
+
+.ibox-title h5 {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 7px;
+    padding: 0;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.ibox {
+    clear: both;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0;
+}
+
+    .ibox.collapsed .ibox-content {
+        display: none;
+    }
+
+    .ibox.collapsed .fa.fa-chevron-up:before {
+        content: "\f078";
+    }
+
+    .ibox.collapsed .fa.fa-chevron-down:before {
+        content: "\f077";
+    }
+
+    .ibox:after,
+    .ibox:before {
+        display: table;
+    }
+body.rtls .stat-percent {
+  float: left;
+}
+.ibox-content {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+
+.ibox-footer {
+    color: inherit;
+    border-top: 1px solid #e7eaec;
+    font-size: 90%;
+    background: #ffffff;
+    padding: 10px 15px;
+}
+/* BACKGROUNDS */
+.gray-bg,
+.bg-muted {
+    background-color: #f3f3f4;
+}
+
+.white-bg {
+    background-color: #ffffff;
+}
+
+.blue-bg,
+.bg-success {
+    background-color: #1c84c6;
+    color: #ffffff;
+}
+
+.no-margins {
+    margin: 0 !important;
+}
+
+body.rtls .stat-percent {
+    float: left;
+}
+
+.md-skin .font-bold {
+    font-weight: 500;
+}
+
+.ibox-title .label {
+    float: left;
+    margin-left: 4px;
+}
+
+.float-e-margins .btn {
+    margin-bottom: 5px;
+}
+
+.ibox-tools {
+    display: block;
+    float: none;
+    margin-top: 0;
+    position: relative;
+    padding: 0;
+    text-align: right;
+}
+
+    .ibox-tools a {
+        cursor: pointer;
+        margin-left: 5px;
+        color: #c4c4c4;
+    }
+
+        .ibox-tools a.btn-primary {
+            color: #fff;
+        }
+
+    .ibox-tools .dropdown-menu > li > a {
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+
+.ibox .ibox-tools.open > .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+.top-navigation .wrapper.wrapper-content {
+    padding: 40px;
+}
+
+.top-navigation.body-small .wrapper.wrapper-content,
+.body-small .top-navigation .wrapper.wrapper-content {
+    padding: 40px 0 40px 0;
+}
+
+/* BACKGROUNDS */
+.gray-bg,
+.bg-muted {
+    background-color: #f3f3f4;
+}
+
+.white-bg .navbar-fixed-top,
+.white-bg .navbar-static-top {
+    background: #fff;
+}
+
+.m-b-sm {
+    margin-bottom: 10px;
+}
+
+.animated.modal.fade .modal-dialog {
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e7eaec !important;
+}
+/* WRAPPERS */
+#wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    padding: 0 20px;
+}
+
+.wrapper-content {
+    padding: 20px 10px 40px;
+}
+
+#page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    position: relative !important;
+}
+
+@media (min-width: 768px) {
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 240px;
+        min-height: 2002px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .nofloat {
+        float: none;
+        padding: 10px 15px;
+    }
+}
