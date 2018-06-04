@@ -1,6 +1,5 @@
-﻿@using ResourceBibleStudy.Core.Dto 
+﻿@using ResourceBibleStudy.Core.Dto
 @{
-    ViewBag.Title = "Index";  
 
     var bibleContent = (Bible)ViewBag.BibleContent;
 }
@@ -37,8 +36,8 @@
                         </div>
                         <div class="ibox-content">
                             <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
-                            <div class="stat-percent font-bold text-success">@book.BookChapter.Count <i class="fa fa-database"></i></div>
-                            <small>Total chapters</small>
+                            <div class="stat-percent font-bold text-success">Total chapters - @book.BookChapter.Count <i class="fa fa-database"></i></div>
+
                         </div>
                     </div>
                 </div>
@@ -54,8 +53,7 @@
                         <div class="ibox-content">
 
                             <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
-                            <div class="stat-percent font-bold text-success">@book.BookChapter.Count<i class="fa fa-bolt"></i></div>
-                            <small>Total chapters</small>
+                            <div class="stat-percent font-bold text-success">Total chapters - @book.BookChapter.Count <i class="fa fa-database"></i></div>
                         </div>
                     </div>
                 </div>

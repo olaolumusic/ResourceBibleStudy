@@ -276,6 +276,8 @@
     <Content Include="Views\Shared\_BookIntroduction.cshtml" />
     <Content Include="Views\Shared\_BookTableOfContent.cshtml" />
     <Content Include="Views\Shared\_ChapterTableOfContent.cshtml" />
+    <Content Include="Views\Home\Book.cshtml" />
+    <Content Include="Views\Home\Chapter.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ResourceBibleStudy.Core\ResourceBibleStudy.Core.csproj">
