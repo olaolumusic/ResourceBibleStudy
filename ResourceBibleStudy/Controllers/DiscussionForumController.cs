@@ -20,11 +20,11 @@ namespace ResourceBibleStudy.Controllers
             var user = GetCurrentUser();
             return Json(new
             {
-                user.UserName,
+                UserFullName = user.UserName,
                 user.UserImageUrl,
                 status = true
             }, JsonRequestBehavior.AllowGet);
         }
 
-	}
+    }
 }
