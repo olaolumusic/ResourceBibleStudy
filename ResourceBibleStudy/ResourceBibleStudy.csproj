@@ -139,7 +139,6 @@
     <Compile Include="Controllers\DailyReadingController.cs" />
     <Compile Include="Controllers\DiscussionForumController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Filters\ApiExceptionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
