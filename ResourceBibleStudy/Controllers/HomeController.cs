@@ -10,7 +10,7 @@ namespace ResourceBibleStudy.Controllers
 {
     public class HomeController : BaseController
     {
-        private readonly BibleRepository _bibleRepository; 
+        private readonly BibleRepository _bibleRepository;
         static Bible BibleContent { get; set; }
 
         public HomeController()
@@ -21,7 +21,6 @@ namespace ResourceBibleStudy.Controllers
         {
             ViewBag.Title = "Resource Bible Study";
             BibleContent = _bibleRepository.GetBible();
-
             ViewBag.BibleContent = BibleContent;
 
             return View();
@@ -62,6 +61,28 @@ namespace ResourceBibleStudy.Controllers
 
             return View();
         }
+        [ActionName("back_to_book")]
+        public ActionResult BackToBook(int chapterId = 1, int bookId = 1, string direction = "")
+        {
+
+
+            var book = _bibleRepository.GetBible().Books.FirstOrDefault(x => x.Id == bookId);
+
+            var chapter = book.BookChapter.FirstOrDefault(x => x.ChapterId == chapterId);
+
+            var readingContent = chapter.ChapterVerses.Aggregate("", (current, verse) =>
+              current + string.Format("<p>{0}: {1} <p/>", verse.Id, verse.VerseText));
+
+            var readingTitle = book.BookName + " \nChapter: " + chapter.ChapterId;
+
+            return Json(new { readingTitle, chapterId, bookId, readingContent, status = true }, JsonRequestBehavior.AllowGet);
+
+        }
+         
+        public ActionResult BibleAnimated()
+        {
+            return View();
+        }
 
         /// <summary>
         /// 
@@ -75,7 +96,14 @@ namespace ResourceBibleStudy.Controllers
         {
             if (direction == "previous")
             {
-                chapterId--;
+                if (chapterId == 1 && bookId != 1)
+                {
+                    bookId--;
+                }
+                else
+                {
+                    chapterId--;
+                }
             }
             else
             {

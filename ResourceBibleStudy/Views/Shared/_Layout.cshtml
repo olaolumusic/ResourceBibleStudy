@@ -6,6 +6,10 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/datepicker3.css" rel="stylesheet">
+    <link href="~/Content/daterangepicker-bs3.css" rel="stylesheet">
 </head>
 <body class="gray-bg">
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -37,6 +41,54 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    <!-- Data picker -->
+    <script src="~/Scripts/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        //Next and previous controll
+        $('.next_previous_chapter').click(function () {
+            var chapterId = $("#chapterId").val();
+            var bookId = $("#bookId").val();
+            $.ajax({
+                type: "GET",
+                beforeSend: function () { 
+                },
+                url: $(this).data('url') + ("&chapterId=" + chapterId) + ("&bookId=" + bookId),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) { 
+                    $("#readingTitle").html(response.readingTitle);
+                    $("#readingContent").html(response.readingContent);
+                    $("#chapterId").val(response.chapterId);
+                    $("#bookId").val(response.bookId); 
+                },
+                error: function (error) { 
+                    alert(error); 
+                }
+            });
+        });
 
+
+        //Next and previous controll
+        $('.next_previous').click(function () {
+            var timeOfTheDay = $("#timeOfTheDay").val();
+            $.ajax({
+                type: "GET",
+                beforeSend: function () { 
+                },
+                url: $(this).data('url') + ("&timeOfTheDay=" + timeOfTheDay),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) { 
+                    $("#readingTitle").html(response.readingTitle);
+                    $("#readingContent").html(response.readingContent);
+                    $("#currentDate").html(response.currentDate);
+                    $("#timeOfTheDay").val(response.timeOfTheDay); 
+                },
+                error: function (error) { 
+                    alert(error); 
+                }
+            });
+        });
+    </script>
 </body>
 </html>
