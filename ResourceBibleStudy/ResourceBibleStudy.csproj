@@ -163,6 +163,9 @@
     </Compile>
     <Compile Include="Helpers\DateHelper.cs" />
     <Compile Include="Helpers\QueryHelper.cs" />
+    <Compile Include="Helpers\SessionKeyManager.cs" />
+    <Compile Include="Helpers\SessionWrapper.cs" />
+    <Compile Include="Helpers\UserSession.cs" />
     <Compile Include="Models\ApiErrorMessage.cs" />
     <Compile Include="Models\MessageDetail.cs" />
     <Compile Include="Models\UserDetail.cs" />
@@ -208,6 +211,7 @@
     <Content Include="Content\themes\turnjs\pics\spine.png" />
     <Content Include="Content\themes\turnjs\pics\thumb.png" />
     <Content Include="Content\themes\turnjs\pics\young.jpg" />
+    <Content Include="Content\toastr.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont3e6e.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -242,6 +246,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\toastr.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

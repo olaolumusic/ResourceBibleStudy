@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ResourceBibleStudy.Controllers
 {
-    public class DiscussionForumController : Controller
+    public class DiscussionForumController : BaseController
     {
         //
         // GET: /DiscussionForum/
@@ -14,5 +14,17 @@ namespace ResourceBibleStudy.Controllers
         {
             return View();
         }
+
+        public JsonResult AutoLoginUser()
+        {
+            var user = GetCurrentUser();
+            return Json(new
+            {
+                user.UserName,
+                user.UserImageUrl,
+                status = true
+            }, JsonRequestBehavior.AllowGet);
+        }
+
 	}
 }
