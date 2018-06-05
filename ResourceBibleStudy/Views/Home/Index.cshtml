@@ -1,18 +1,17 @@
-﻿@using ResourceBibleStudy.Core.Dto 
+﻿@using ResourceBibleStudy.Core.Dto
 @{
-    ViewBag.Title = "Index";  
 
     var bibleContent = (Bible)ViewBag.BibleContent;
 }
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
-        <h2>Resource Bible Study</h2>
         <ol class="breadcrumb">
             <li>
                 <a href="#">Home</a>
             </li>
+             
             <li>
-                <a>Extras</a>
+                <a href="@Url.Action("BibleAnimated")">Flip Version </a>
             </li>
             <li class="active">
                 <strong>Bible Reading</strong>
@@ -37,8 +36,8 @@
                         </div>
                         <div class="ibox-content">
                             <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
-                            <div class="stat-percent font-bold text-success">@book.BookChapter.Count <i class="fa fa-database"></i></div>
-                            <small>Total chapters</small>
+                            <div class="stat-percent font-bold text-success">Total chapters - @book.BookChapter.Count <i class="fa fa-database"></i></div>
+
                         </div>
                     </div>
                 </div>
@@ -54,8 +53,7 @@
                         <div class="ibox-content">
 
                             <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
-                            <div class="stat-percent font-bold text-success">@book.BookChapter.Count<i class="fa fa-bolt"></i></div>
-                            <small>Total chapters</small>
+                            <div class="stat-percent font-bold text-success">Total chapters - @book.BookChapter.Count <i class="fa fa-database"></i></div>
                         </div>
                     </div>
                 </div>

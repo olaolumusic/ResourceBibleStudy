@@ -33,3 +33,10 @@ C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\ResourceBibleS
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\ResourceBibleStudy.Repository.dll
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\ResourceBibleStudy.Core.pdb
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\ResourceBibleStudy.Repository.pdb
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Owin.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.Security.xml

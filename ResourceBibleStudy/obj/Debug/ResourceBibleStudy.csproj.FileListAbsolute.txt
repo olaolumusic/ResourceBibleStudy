@@ -34,3 +34,14 @@ C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\ResourceBibleStudy.Core.dl
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\ResourceBibleStudy.Repository.dll
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\ResourceBibleStudy.Core.pdb
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\ResourceBibleStudy.Repository.pdb
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.Owin.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.Owin.Security.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Owin.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.Owin.xml
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.Owin.Security.xml
