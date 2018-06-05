@@ -1,0 +1,9 @@
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Repository\obj\Debug\ResourceBibleStudy.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\ResourceBibleStudy.Repository.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\ResourceBibleStudy.Repository.pdb
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\ResourceBibleStudy.Core.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\ResourceBibleStudy.Core.pdb
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Repository\obj\Debug\ResourceBibleStudy.Repository.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Repository\obj\Debug\ResourceBibleStudy.Repository.pdb

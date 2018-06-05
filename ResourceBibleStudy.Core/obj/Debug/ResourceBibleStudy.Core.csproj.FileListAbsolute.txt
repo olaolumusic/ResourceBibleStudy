@@ -1,0 +1,4 @@
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\bin\Debug\ResourceBibleStudy.Core.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\bin\Debug\ResourceBibleStudy.Core.pdb
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.pdb

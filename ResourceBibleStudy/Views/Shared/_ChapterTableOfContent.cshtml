@@ -1,0 +1,12 @@
+@using ResourceBibleStudy.Core.Dto;
+@model Book
+<div class="table-contents">
+    <h1>Contents</h1>
+    <ul>
+        @foreach (var book in Model.BookChapter)
+        {
+            <li><a href="@Url.Action("search_book","Home", new { bookId = Model.Id, bookChapter = book.ChapterId})">Chapter <span>@book.ChapterId </span></a></li>
+            }
+        </ul>
+    </div>
+    <span class="page-number">Powered by Resource TAT</span>

@@ -1,0 +1,65 @@
+﻿@using ResourceBibleStudy.Core.Dto
+@{
+
+    var bibleContent = (Bible)ViewBag.BibleContent;
+}
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Home</a>
+            </li>
+             
+            <li>
+                <a href="@Url.Action("BibleAnimated")">Flip Version </a>
+            </li>
+            <li class="active">
+                <strong>Bible Reading</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+<div class="wrapper wrapper-content">
+    <div class="row">
+        @foreach (var book in bibleContent.Books)
+        {
+            if (book.Id < 44)
+            {
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <span class="label label-success pull-right">Old testament</span>
+                            <h5>Study</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
+                            <div class="stat-percent font-bold text-success">Total chapters - @book.BookChapter.Count <i class="fa fa-database"></i></div>
+
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <span class="label label-primary pull-right">New testament</span>
+                            <h5>Study</h5>
+                        </div>
+                        <div class="ibox-content">
+
+                            <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
+                            <div class="stat-percent font-bold text-success">Total chapters - @book.BookChapter.Count <i class="fa fa-database"></i></div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        }
+    </div>
+
+</div>

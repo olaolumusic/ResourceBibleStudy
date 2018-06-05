@@ -1,0 +1,47 @@
+﻿@using ResourceBibleStudy.Core.Dto;
+@{  
+    var book = (Book)ViewBag.Book;
+}
+
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Resource Bible Study</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="@Url.Action("Index")">Book</a>
+            </li>
+            <li class="active">
+                <strong>@book.BookName</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+<div class="wrapper wrapper-content">
+    <div class="row">
+        @foreach (var chapter in book.BookChapter)
+        {
+            <div class="col-lg-3">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <span class="label label-success pull-right">@book.BookName</span>
+                        <h5>Study</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <h2 class="no-margins">@Html.ActionLink(string.Format("Chapter {0}", @chapter.ChapterId), "Chapter", new { chapter.ChapterId, bookId = book.Id })</h2>
+                        <div class="stat-percent font-bold text-success">Total Verses - @chapter.ChapterVerses.Count <i class="fa fa-database"></i></div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+
+</div>

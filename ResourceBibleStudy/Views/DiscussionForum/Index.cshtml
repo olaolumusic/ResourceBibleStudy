@@ -1,0 +1,78 @@
+﻿@{
+
+}
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Welcome [<span id='spanUser'>--</span>] to the Chat Room </h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Index","Home")">Home</a>
+            </li>
+            <li>
+                <a>Discussion Forum</a>
+            </li>
+            <li class="active">
+                <strong>Chat view</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="ibox chat-view">
+
+                <div class="ibox-title">
+                    <small class="pull-right text-muted" id="LastMessageTime"></small>
+                    General Discussion Forum, Please click on Individual Account to have a private chat
+
+                </div>
+
+
+                <div class="ibox-content">
+
+                    <input id="hdId" type="hidden" />
+                    <input id="hdUserName" type="hidden" />
+                    <div class="row">
+
+                        <div class="col-md-9 ">
+                            <div class="chat-discussion" id="divChatWindow">
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="chat-users">
+                                <div class="users-list" id="divusers">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="chat-message-form">
+                            <div class="form-group">
+                                <textarea class="form-control message-input" id="txtMessage" placeholder="Enter message text"></textarea>
+
+                                <input id="btnSendMsg" type="button" value="Send" class="btn btn-block btn-primary submitButton" />
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
