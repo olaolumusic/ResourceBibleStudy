@@ -141,6 +141,103 @@ h6 {
     float: left;
 }
 
+/* Chat view */
+.message-input {
+  height: 90px !important;
+}
+.chat-avatar {
+  width: 36px;
+  height: 36px;
+  float: left;
+  margin-right: 10px;
+}
+.chat-user-name {
+  padding: 10px;
+}
+.chat-user {
+  padding: 8px 10px;
+  border-bottom: 1px solid #e7eaec;
+}
+.chat-user a {
+  color: inherit;
+}
+.chat-view {
+  z-index: 20012;
+}
+.chat-users,
+.chat-statistic {
+  margin-left: -30px;
+}
+@media (max-width: 992px) {
+  .chat-users,
+  .chat-statistic {
+    margin-left: 0;
+  }
+}
+.chat-view .ibox-content {
+  padding: 0;
+}
+.chat-message {
+  padding: 10px 20px;
+}
+.message-avatar {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #e7eaec;
+  border-radius: 4px;
+  margin-top: 1px;
+}
+.chat-discussion .chat-message.left .message-avatar {
+  float: left;
+  margin-right: 10px;
+}
+.chat-discussion .chat-message.right .message-avatar {
+  float: right;
+  margin-left: 10px;
+}
+.message {
+  background-color: #fff;
+  border: 1px solid #e7eaec;
+  text-align: left;
+  display: block;
+  padding: 10px 20px;
+  position: relative;
+  border-radius: 4px;
+}
+.chat-discussion .chat-message.left .message-date {
+  float: right;
+}
+.chat-discussion .chat-message.right .message-date {
+  float: left;
+}
+.chat-discussion .chat-message.left .message {
+  text-align: left;
+  margin-left: 55px;
+}
+.chat-discussion .chat-message.right .message {
+  text-align: right;
+  margin-right: 55px;
+}
+.message-date {
+  font-size: 10px;
+  color: #888888;
+}
+.message-content {
+  display: block;
+}
+.chat-discussion {
+  background: #eee;
+  padding: 15px;
+  height: 400px;
+  overflow-y: auto;
+}
+.chat-users {
+  overflow-y: auto;
+  height: 400px;
+}
+.chat-message-form .form-group {
+  margin-bottom: 0;
+}
 .ibox {
     clear: both;
     margin-bottom: 25px;

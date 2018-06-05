@@ -94,7 +94,6 @@
     <Compile Include="BibleTest\BibleStudyTest.cs" />
     <Compile Include="BibleTest\DailyScripturesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Controllers\ValuesControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -115,6 +114,9 @@
       <Project>{B9547D24-3F0F-45C1-BC37-6BDE8538D50B}</Project>
       <Name>ResourceBibleStudy</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
