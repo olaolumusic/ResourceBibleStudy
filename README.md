@@ -9,13 +9,13 @@ Open Source Multi Version - Bible Study
 
 ### Screenshots
 
-![screenshots](screenshots/BibleStudy Home Page.PNG)
+![Homepage](screenshots/BibleStudy Home Page.PNG)
 
-![screenshots](screenshots/Bible Study Discussion Forum.PNG)
+![Discussion Forum](screenshots/Bible Study Discussion Forum.PNG)
 
-![screenshots](screenshots/BibleStudy Reading without Flip.PNG)
+![Normal Reading](screenshots/BibleStudy Reading without Flip.PNG)
 
-![screenshots](screenshots/Bible Study Animated.PNG
+![Bible Animated](screenshots/Bible Study Animated.PNG
 
 # Contributes
 * Honza -  Bible Files
