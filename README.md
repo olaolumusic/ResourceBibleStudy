@@ -7,6 +7,16 @@ Open Source Multi Version - Bible Study
 * Animated Bible View.
 * Web API
 
+### Screenshots
+
+![screenshots](screenshots/BibleStudy Home Page.PNG)
+
+![screenshots](screenshots/Bible Study Discussion Forum.PNG)
+
+![screenshots](screenshots/BibleStudy Reading without Flip.PNG)
+
+![screenshots](screenshots/Bible Study Animated.PNG
+
 # Contributes
 * Honza -  Bible Files
 * Tunjs - Animated Book View
