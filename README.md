@@ -9,15 +9,20 @@ Open Source Multi Version - Bible Study
 
 ### Screenshots
 
-![Homepage](screenshots/Bible%20Reading%20Plan.PNG)
+
+![alt text](screenshots/BibleStudy%20Home%20Page.PNG "Home Page")
+
+![Reading Plan](screenshots/Bible%20Reading%20Plan.PNG)
 
 ![Discussion Forum](screenshots/Bible%20Study%20Discussion%20Forum.PNG)
 
 ![Normal Reading](screenshots/BibleStudy%20Reading%20without%20Flip.PNG)
 
 ![Bible Animated](screenshots/Bible%20Study%20Animated.PNG)
+ 
 
-![alt text](screenshots/Bible%20Reading%20Plan.PNG "Description goes here")
+
+
 
 # Contributes
 * Honza -  Bible Files
