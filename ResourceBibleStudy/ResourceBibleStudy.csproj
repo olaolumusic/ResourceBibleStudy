@@ -112,8 +112,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Views\Base\" />
+    <Folder Include="Views\DiscussionForum\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -134,13 +134,18 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\api\v1\BibleController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\DailyReadingController.cs" />
+    <Compile Include="Controllers\DiscussionForumController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Filters\ApiExceptionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\QueryHelper.cs" />
+    <Compile Include="Models\ApiErrorMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -172,58 +177,10 @@
     <Content Include="Content\themes\turnjs\lib\turn.min.js" />
     <Content Include="Content\themes\turnjs\lib\zoom.js" />
     <Content Include="Content\themes\turnjs\lib\zoom.min.js" />
-    <Content Include="Content\themes\turnjs\pics\05.jpg" />
-    <Content Include="Content\themes\turnjs\pics\06.jpg" />
-    <Content Include="Content\themes\turnjs\pics\07.jpg" />
-    <Content Include="Content\themes\turnjs\pics\08.jpg" />
-    <Content Include="Content\themes\turnjs\pics\09.jpg" />
-    <Content Include="Content\themes\turnjs\pics\10.jpg" />
-    <Content Include="Content\themes\turnjs\pics\11.jpg" />
-    <Content Include="Content\themes\turnjs\pics\12.jpg" />
-    <Content Include="Content\themes\turnjs\pics\13.jpg" />
-    <Content Include="Content\themes\turnjs\pics\14.jpg" />
-    <Content Include="Content\themes\turnjs\pics\15.jpg" />
-    <Content Include="Content\themes\turnjs\pics\16.jpg" />
-    <Content Include="Content\themes\turnjs\pics\17.jpg" />
-    <Content Include="Content\themes\turnjs\pics\18.jpg" />
-    <Content Include="Content\themes\turnjs\pics\19.jpg" />
-    <Content Include="Content\themes\turnjs\pics\20.jpg" />
-    <Content Include="Content\themes\turnjs\pics\21.jpg" />
-    <Content Include="Content\themes\turnjs\pics\22.jpg" />
-    <Content Include="Content\themes\turnjs\pics\23.jpg" />
-    <Content Include="Content\themes\turnjs\pics\24.jpg" />
-    <Content Include="Content\themes\turnjs\pics\24.png" />
-    <Content Include="Content\themes\turnjs\pics\25.jpg" />
-    <Content Include="Content\themes\turnjs\pics\26.jpg" />
-    <Content Include="Content\themes\turnjs\pics\27.jpg" />
-    <Content Include="Content\themes\turnjs\pics\29.jpg" />
-    <Content Include="Content\themes\turnjs\pics\30.jpg" />
-    <Content Include="Content\themes\turnjs\pics\31.jpg" />
-    <Content Include="Content\themes\turnjs\pics\32.jpg" />
-    <Content Include="Content\themes\turnjs\pics\33.jpg" />
-    <Content Include="Content\themes\turnjs\pics\34.jpg" />
-    <Content Include="Content\themes\turnjs\pics\35.jpg" />
-    <Content Include="Content\themes\turnjs\pics\36.jpg" />
-    <Content Include="Content\themes\turnjs\pics\37.jpg" />
-    <Content Include="Content\themes\turnjs\pics\38.jpg" />
-    <Content Include="Content\themes\turnjs\pics\39.jpg" />
-    <Content Include="Content\themes\turnjs\pics\40.jpg" />
-    <Content Include="Content\themes\turnjs\pics\41.jpg" />
-    <Content Include="Content\themes\turnjs\pics\42.jpg" />
-    <Content Include="Content\themes\turnjs\pics\43.jpg" />
-    <Content Include="Content\themes\turnjs\pics\44.jpg" />
-    <Content Include="Content\themes\turnjs\pics\45.jpg" />
-    <Content Include="Content\themes\turnjs\pics\46.jpg" />
-    <Content Include="Content\themes\turnjs\pics\47.jpg" />
-    <Content Include="Content\themes\turnjs\pics\48.jpg" />
     <Content Include="Content\themes\turnjs\pics\book-covers.jpg" />
     <Content Include="Content\themes\turnjs\pics\book-covers.png" />
-    <Content Include="Content\themes\turnjs\pics\books.jpg" />
-    <Content Include="Content\themes\turnjs\pics\collegue.jpg" />
     <Content Include="Content\themes\turnjs\pics\gradient-page-left.jpg" />
     <Content Include="Content\themes\turnjs\pics\gradient-page-right.jpg" />
-    <Content Include="Content\themes\turnjs\pics\highschool.jpg" />
-    <Content Include="Content\themes\turnjs\pics\highschool2.jpg" />
     <Content Include="Content\themes\turnjs\pics\loader.gif" />
     <Content Include="Content\themes\turnjs\pics\pages-depth.png" />
     <Content Include="Content\themes\turnjs\pics\preview.jpg" />
@@ -285,6 +242,7 @@
     <Content Include="Views\Home\Book.cshtml" />
     <Content Include="Views\Home\Chapter.cshtml" />
     <Content Include="Views\Home\BibleAnimated.cshtml" />
+    <Content Include="Views\DailyReading\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ResourceBibleStudy.Core\ResourceBibleStudy.Core.csproj">

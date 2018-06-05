@@ -1,0 +1,95 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Administrator/Views/Shared/_AdminLayout.cshtml";
+
+    var readingContent = ViewBag.ReadingContent.ToString();
+    var readingTitle = ViewBag.ReadingTitle.ToString();
+    var timeOfTheDay = (int)ViewBag.TimeOfTheDay;
+}
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Resource Reading Plan</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Index")">Home</a>
+            </li>
+            <li>
+                <a>Bible Study</a>
+            </li>
+            <li class="active">
+                <strong>Daily Plan</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+<div class="wrapper wrapper-content  animated fadeInRight article">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="ibox">
+                <div class="ibox-content">
+                    <div class="row pull-right">
+
+                    </div>
+                    <div class="pull-right tooltip-demo">
+                        <input id="timeOfTheDay" type="hidden" value="@timeOfTheDay" class="form-control">
+                        <div class="col-sm-3">
+                            <span class="btn btn-white next_previous" data-url="@Url.Action("next_previous", new {  direction = "previous"})" data-toggle="tooltip" data-placement="top" title="" data-original-title="previous scripture within a date">
+                                <i class="fa fa-chevron-left"></i>
+                            </span>
+                        </div>
+                        <div class="col-sm-3">
+                            <span class="input-group date" id="readingcalender" data-toggle="tooltip" data-placement="top" title="" data-original-title="select a date">
+                                <button class="btn btn-white"><i class="fa fa-calendar"></i></button>
+                                <input id="date_modified" type="hidden" class="form-control">
+                            </span>
+                        </div>
+                        <div class="col-sm-3">
+                            <span class="btn btn-white next_previous" data-url="@Url.Action("next_previous", new { direction = "next"})" data-toggle="tooltip" data-placement="top" title="" data-original-title="next scripture within a date">
+                                <i class="fa fa-chevron-right"></i>
+                            </span>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <a href="@Url.Action("Index","Home")" class="btn btn-white" data-toggle="tooltip" data-placement="top" title="" data-original-title="open the bible"><i class="fa fa-book"></i> </a>
+                        </div>
+
+                    </div>
+                    <div class="text-center article-title">
+                        <span class="text-muted">
+                            <i class="fa fa-clock-o"></i> <text id="currentDate">
+                                @DateTime.Now.ToString("dd MMM yyyy")
+                            </text>
+                        </span>
+                        <h1 id="readingTitle">
+                            @readingTitle
+                        </h1>
+                    </div>
+                    <span class="font-normal" id="readingContent">@Html.Raw(readingContent) </span>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Tags:</h5>
+                            <button class="btn btn-primary btn-xs" type="button">Model</button>
+                            <button class="btn btn-white btn-xs" type="button">Publishing</button>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="small text-right">
+                                <h5>Stats:</h5>
+                                <div> <i class="fa fa-comments-o"> </i> 56 comments </div>
+                                <i class="fa fa-eye"> </i> 144 views
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
