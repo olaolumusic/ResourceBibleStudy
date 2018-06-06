@@ -78,7 +78,7 @@ namespace ResourceBibleStudy.Controllers
             return Json(new { readingTitle, chapterId, bookId, readingContent, status = true }, JsonRequestBehavior.AllowGet);
 
         }
-         
+
         public ActionResult BibleAnimated()
         {
             return View();
@@ -165,6 +165,38 @@ namespace ResourceBibleStudy.Controllers
             }
 
             return Json(new { BookContent = readingResult, status = true });
+
+        }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="pageNumber"></param>
+        /// <param name="bookChapter"></param>
+        /// <returns></returns>
+        [ActionName("content")]
+        public string GetSelectedBible(int pageNumber = 1, int bookChapter = 1)
+        {
+            var readingResult = new StringBuilder();
+
+            var model = _bibleRepository.GetBible();
+
+            if (pageNumber >= 5 && pageNumber <= 10)
+            {
+                pageNumber -= 4;
+                var queryHelper = QueryHelper.GetPagingRowNumber(pageNumber, 12);
+                var portion = model.Books.Where(x => x.Id >= queryHelper.RowStart && x.Id <= queryHelper.RowEnd);
+                readingResult.Append(RenderPartialViewToString("_BookTableOfContent", portion));
+            }
+            else
+            {
+                //readingResult.Append(RenderPartialViewToString("_BookContent", model.Books[3].BookChapter
+                //        .FirstOrDefault().ChapterVerses.Where(x => x.Id < 5).ToList()));
+
+            }
+
+            return readingResult.ToString();
 
         }
 
