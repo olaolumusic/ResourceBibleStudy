@@ -173,10 +173,11 @@ namespace ResourceBibleStudy.Controllers
         /// 
         /// </summary>
         /// <param name="pageNumber"></param>
+        /// <param name="bookId"></param>
         /// <param name="bookChapter"></param>
         /// <returns></returns>
         [ActionName("content")]
-        public string GetSelectedBible(int pageNumber = 1, int bookChapter = 1)
+        public string GetSelectedBible(int pageNumber = 1, int bookId = 0, int bookChapter = 1)
         {
             var readingResult = new StringBuilder();
 
@@ -189,12 +190,22 @@ namespace ResourceBibleStudy.Controllers
                 var portion = model.Books.Where(x => x.Id >= queryHelper.RowStart && x.Id <= queryHelper.RowEnd);
                 readingResult.Append(RenderPartialViewToString("_BookTableOfContent", portion));
             }
-            else
+            else if (bookId == 0)
             {
-                //readingResult.Append(RenderPartialViewToString("_BookContent", model.Books[3].BookChapter
-                //        .FirstOrDefault().ChapterVerses.Where(x => x.Id < 5).ToList()));
+                var book = model.Books.FirstOrDefault(x => x.Id == 1);
 
-            }
+                if (book != null)
+                {
+                    ViewBag.BookName = book.BookName;
+                    ViewBag.Chapter = bookChapter;
+
+                    var chapter = book.BookChapter
+                        .FirstOrDefault(x => x.ChapterId == bookChapter);
+
+                    if (chapter != null)
+                        readingResult.Append(RenderPartialViewToString("_BookContent", chapter.ChapterVerses.Where(x => x.Id <= 5).ToList()));
+                }
+            } 
 
             return readingResult.ToString();
 

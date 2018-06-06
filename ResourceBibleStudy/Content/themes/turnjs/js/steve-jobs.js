@@ -51,6 +51,7 @@ function addPage(page, book) {
             html('<div class="loader"></div>');
 
         if (book.turn('addPage', element, page)) {
+            
             loadPage(page);
         }
 
