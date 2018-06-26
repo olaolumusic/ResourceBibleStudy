@@ -1,4 +1,4 @@
-/* Steve jobs' book */
+/* Resource Bible' book */
 
 function updateDepth(book, newPage) {
 

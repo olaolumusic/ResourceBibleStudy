@@ -61,10 +61,10 @@ namespace ResourceBibleStudy.Controllers
 
             return View();
         }
+
         [ActionName("back_to_book")]
         public ActionResult BackToBook(int chapterId = 1, int bookId = 1, string direction = "")
         {
-
 
             var book = _bibleRepository.GetBible().Books.FirstOrDefault(x => x.Id == bookId);
 
@@ -99,15 +99,44 @@ namespace ResourceBibleStudy.Controllers
                 if (chapterId == 1 && bookId != 1)
                 {
                     bookId--;
+                    var gotoLastChapter = _bibleRepository.GetBible().Books.Last(x => x.Id == bookId);
+                    chapterId = gotoLastChapter.BookChapter.Last().ChapterId;
                 }
                 else
                 {
-                    chapterId--;
+                    if (bookId == 1)
+                    {
+                        bookId = 66;
+                        var gotoLastChapter = _bibleRepository.GetBible().Books.Last(x => x.Id == bookId);
+                        chapterId = gotoLastChapter.BookChapter.Last().ChapterId;
+                    }
+                    else
+                    {
+                        chapterId--;
+                    }
                 }
             }
             else
             {
-                chapterId++;
+
+                var checkLastChatperReached = _bibleRepository.GetBible().Books.FirstOrDefault(x => x.Id == bookId);
+
+                if (checkLastChatperReached != null && chapterId == checkLastChatperReached.BookChapter.Last().ChapterId)
+                {
+                    if (bookId == 66)
+                    {
+                        bookId = 1;
+                    }
+                    else
+                    {
+                        bookId++;
+                    }
+                    chapterId = 1;
+                }
+                else
+                {
+                    chapterId++;
+                }
             }
 
             var book = _bibleRepository.GetBible().Books.FirstOrDefault(x => x.Id == bookId);
@@ -205,7 +234,7 @@ namespace ResourceBibleStudy.Controllers
                     if (chapter != null)
                         readingResult.Append(RenderPartialViewToString("_BookContent", chapter.ChapterVerses.Where(x => x.Id <= 5).ToList()));
                 }
-            } 
+            }
 
             return readingResult.ToString();
 
