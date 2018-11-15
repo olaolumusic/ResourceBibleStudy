@@ -36,6 +36,6 @@ Open Source Multi Version - Bible Study
 * Optimize Search both Web and API
 * Multi-version
 
-#ResourceBibleStudy In Python:
+# ResourceBibleStudy In Python:
 * Proudly create by @zdonald 
 https://github.com/azdonald/ResourceBibleStudy
