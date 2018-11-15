@@ -35,3 +35,7 @@ Open Source Multi Version - Bible Study
 * Text to speech.
 * Optimize Search both Web and API
 * Multi-version
+
+#ResourceBibleStudy In Python:
+* Proudly create by @zdonald 
+https://github.com/azdonald/ResourceBibleStudy
