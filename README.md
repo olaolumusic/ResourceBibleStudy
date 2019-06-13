@@ -42,3 +42,6 @@ https://github.com/azdonald/ResourceBibleStudy
 
 * Created By Olaolu
 https://github.com/olaolumusic/ResourceBibleStudyAndroid
+
+* Created By Olaolu & Ehimah
+https://github.com/ehimah/ResourceBibleStudyXamarin
