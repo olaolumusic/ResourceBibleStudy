@@ -39,3 +39,6 @@ Open Source Multi Version - Bible Study
 # See also, Resource Bible Study In Python:
 * Proudly create by @zdonald 
 https://github.com/azdonald/ResourceBibleStudy
+
+* Created By Olaolu
+https://github.com/olaolumusic/ResourceBibleStudyAndroid
