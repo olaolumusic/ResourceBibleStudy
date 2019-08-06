@@ -1,0 +1,54 @@
+﻿
+@model IEnumerable<ResourceBibleStudy.Core.Dto.Book>
+
+
+
+@if (Model != null && Model.Any())
+{
+    foreach (var book in Model)
+    {
+        if (book.Id < 44)
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <span class="label label-success pull-right">Old testament</span>
+                        <h5>Study</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
+                        <div class="stat-percent font-bold text-success">@book.BookChapter.Count <i class="fa fa-database"></i></div>
+                        <small>Total chapters</small>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <span class="label label-primary pull-right">New testament</span>
+                        <h5>Study</h5>
+                    </div>
+                    <div class="ibox-content">
+
+                        <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
+                        <div class="stat-percent font-bold text-success">@book.BookChapter.Count<i class="fa fa-bolt"></i></div>
+                        <small>Total chapters</small>
+                    </div>
+                </div>
+            </div>
+        }
+
+    }
+
+
+}
+else
+{
+    <div class="ibox-content ibox-heading">
+        <h3> Oops ! We couldn't find a match 🙄 </h3>
+        <p> It will be nice to have you try using other key word(s) 🤔</p>
+    </div>
+}

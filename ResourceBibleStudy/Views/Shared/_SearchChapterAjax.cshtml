@@ -1,0 +1,36 @@
+﻿
+@model IEnumerable<ResourceBibleStudy.Core.Dto.Chapter>
+
+@{
+    var bookName = (string)ViewBag.BookName;
+    var bookId = (int)ViewBag.BookId;
+}
+
+@if (Model != null && Model.Any())
+{
+    foreach (var chapter in Model)
+    {
+        <div class="col-lg-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <span class="label label-success pull-right">@bookName</span>
+                    <h5>Study</h5>
+                </div>
+                <div class="ibox-content">
+                    <h2 class="no-margins">@Html.ActionLink(string.Format("Chapter {0}", chapter.ChapterId), "Chapter", new { chapter.ChapterId, bookId})</h2>
+                    <div class="stat-percent font-bold text-success">@chapter.ChapterVerses.Count <i class="fa fa-database"></i></div>
+                    <small>Total Verses</small>
+                </div>
+            </div>
+        </div>
+
+    }
+
+}
+else
+{
+    <div class="ibox-content ibox-heading">
+        <h3> Oops ! We couldn't find a match 🙄 </h3>
+        <p> It will be nice to have you try using other key word(s) 🤔</p>
+    </div>
+}
