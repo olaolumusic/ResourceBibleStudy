@@ -9,7 +9,7 @@
             <li>
                 <a href="#">Home</a>
             </li>
-             
+
             <li>
                 <a href="@Url.Action("BibleAnimated")">Flip Version </a>
             </li>
@@ -22,8 +22,16 @@
 
     </div>
 </div>
+<div class="search-form">
+    <form action="#" method="get">
+        <div class="row">
+            <input type="text" placeholder="Search Book ..." data-category="Bible" data-bookId="" name="search" class="form-control input-lg bible-search">
+        </div>
+
+    </form>
+</div>
 <div class="wrapper wrapper-content">
-    <div class="row">
+    <div class="row" id="parent-books">
         @foreach (var book in bibleContent.Books)
         {
             if (book.Id < 44)
@@ -36,8 +44,8 @@
                         </div>
                         <div class="ibox-content">
                             <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
-                            <div class="stat-percent font-bold text-success">Total chapters - @book.BookChapter.Count <i class="fa fa-database"></i></div>
-
+                            <div class="stat-percent font-bold text-success">@book.BookChapter.Count <i class="fa fa-database"></i></div>
+                            <small>Total chapters</small>
                         </div>
                     </div>
                 </div>
@@ -53,7 +61,8 @@
                         <div class="ibox-content">
 
                             <h2 class="no-margins">@Html.ActionLink(@book.BookName, "Book", new { bookId = book.Id })</h2>
-                            <div class="stat-percent font-bold text-success">Total chapters - @book.BookChapter.Count <i class="fa fa-database"></i></div>
+                            <div class="stat-percent font-bold text-success">@book.BookChapter.Count<i class="fa fa-bolt"></i></div>
+                            <small>Total chapters</small>
                         </div>
                     </div>
                 </div>

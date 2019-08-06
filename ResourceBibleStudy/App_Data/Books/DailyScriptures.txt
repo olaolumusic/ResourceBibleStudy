@@ -2485,7 +2485,7 @@
 		"DayOfTheYear" : 355
 	}, {
 		"Id" : 0,
-		"FirstReading" : "Jonah 1-4",
+		"FirstReading" : "Jonah. 1-4",
 		"SecondReading" : " Proverbs. 21",
 		"ThirdReading" : " 3 John. 1",
 		"BookVersion" : null,

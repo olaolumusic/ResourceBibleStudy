@@ -26,7 +26,7 @@ namespace ResourceBibleStudy.Controllers.api.v1
         /// <exception cref="InvalidOperationException"></exception>
         [Description(description: "Get Bible Passages using search criteria eg. book name, chapter and verse")]
         [Route("")]
-        public IHttpActionResult Get(int bookId, int chapterNumber = 1, int verse = 1, int from = 1, int to = 1, BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Tmsg)
+        public IHttpActionResult Get(int bookId, int chapterNumber = 1, int verse = 1, int from = 1, int to = 1, BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Msg)
         {
             try
             {
