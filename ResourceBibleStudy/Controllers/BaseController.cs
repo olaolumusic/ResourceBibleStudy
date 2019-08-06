@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web.Mvc;
+using ResourceBibleStudy.Core.Dto;
+using ResourceBibleStudy.Core.Util;
 using ResourceBibleStudy.Helpers;
 using ResourceBibleStudy.Models;
 
@@ -71,6 +74,20 @@ namespace ResourceBibleStudy.Controllers
             return (UserSession.Current.LoggedInUser = user);
         }
 
+        /// <summary>
+        /// Returns All The Users in an Enum Form
+        /// </summary>
+        /// <returns></returns>
+        protected IEnumerable<Translation> GetTranslations()
+        {
+
+            var bibleVersions =
+                from BibleConstants.BibleVersions s in Enum.GetValues(typeof(BibleConstants.BibleVersions))
+                select
+                    new Translation { Abbreviation = s.ToString(), Name = EnumDescriptionHelper.GetDescription(s) };
+
+            return bibleVersions;
+        }
     }
 
 }

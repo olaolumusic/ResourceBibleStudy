@@ -44,10 +44,13 @@
     <Compile Include="Dto\Book.cs" />
     <Compile Include="Dto\Chapter.cs" />
     <Compile Include="Dto\DailyScriptures.cs" />
+    <Compile Include="Dto\Translation.cs" />
     <Compile Include="Dto\Verse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\ApplicationConstants.cs" />
     <Compile Include="Util\BibleConstants.cs" />
+    <Compile Include="Util\EnumDescriptionHelper.cs" />
+    <Compile Include="Util\StringExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
