@@ -45,6 +45,10 @@ C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.AspNet.SignalR.S
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.Owin.xml
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Microsoft.Owin.Security.xml
+C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csprojAssemblyReference.cache
+C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csproj.CoreCompileInputs.cache
+C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.dll
+C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.pdb
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\bin\ResourceBibleStudy.dll.config
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\bin\ResourceBibleStudy.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\bin\ResourceBibleStudy.pdb
@@ -89,8 +93,4 @@ C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\bin\System.Web.WebPages
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\bin\System.Web.WebPages.Razor.xml
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\bin\Antlr3.Runtime.pdb
-C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csprojAssemblyReference.cache
-C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csproj.CoreCompileInputs.cache
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csproj.CopyComplete
-C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.dll
-C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.pdb

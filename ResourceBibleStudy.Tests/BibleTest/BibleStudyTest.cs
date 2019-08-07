@@ -49,10 +49,10 @@ namespace ResourceBibleStudy.Tests.BibleTest
             {
                 return _bible;
             }
-            var bibleFilepath = AppDomain.CurrentDomain.BaseDirectory + "\\resources\\MSG.json.txt";
+            var bibleFilepath = AppDomain.CurrentDomain.BaseDirectory + "\\resources\\MSG.json";
             var bibleStreamToString = File.ReadAllText(bibleFilepath); 
 
-            return _bible = _dailyReadingRepository.BibleParser(bibleStreamToString, "TMSG", "The Message Bible");
+            return _bible = _dailyReadingRepository.BibleParser(bibleStreamToString);
 
         }
 

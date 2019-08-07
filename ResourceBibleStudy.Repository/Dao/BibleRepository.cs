@@ -1,18 +1,18 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using ResourceBibleStudy.Core.Dto;
+using ResourceBibleStudy.Core.Util;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web.Hosting;
-using Newtonsoft.Json;
-using ResourceBibleStudy.Core.Dto;
-using ResourceBibleStudy.Core.Util;
 
 namespace ResourceBibleStudy.Repository.Dao
 {
     public class BibleRepository
     {
 
-        public static Bible SessionBible { get; set; }
+        public static List<Bible> SessionBible { get; set; }
 
         public static List<DailyScriptures> SessionDailyScriptures { get; set; }
 
@@ -23,7 +23,7 @@ namespace ResourceBibleStudy.Repository.Dao
             return _dailyReadingRepository ?? (_dailyReadingRepository = new BibleRepository());
         }
 
-        public Chapter SearchScriptures(int bookId, int chapterNumber = 1, int verse = 1, int from = 1, int to = 1, BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Tmsg)
+        public Chapter SearchScriptures(int bookId, int chapterNumber = 1, int verse = 1, int from = 1, int to = 1, BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Msg)
         {
             var bible = GetBible();
 
@@ -47,7 +47,8 @@ namespace ResourceBibleStudy.Repository.Dao
         }
 
 
-        public Chapter SearchScriptures(string bookName, int chapterNumber = 1, int verse = 1, int from = 1, int to = 1, BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Tmsg)
+
+        public Chapter SearchScriptures(string bookName, int chapterNumber = 1, int verse = 1, int from = 1, int to = 1, BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Msg)
         {
             var bible = GetBible();
 
@@ -68,20 +69,54 @@ namespace ResourceBibleStudy.Repository.Dao
             return dailyChapter;
         }
 
-
-        public Bible GetBible(BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Tmsg, string bibleFullName = "The Message Bible")
+        public IEnumerable<Chapter> SearchScripturesByChapters(string bookName, int chapterFrom = 1, int chapterTo = 1, BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Msg)
         {
-            if (SessionBible != null)
+            var bible = GetBible();
+            var chapterList = new List<Chapter>();
+
+            var dailyBook = new Book();
+            foreach (var book in bible.Books.Where(book => book.BookName.ToLower().StartsWith(bookName.Trim().ToLower())))
             {
-                return SessionBible;
+                dailyBook = book;
+                break;
             }
 
-            var bibleFilepath = HostingEnvironment.MapPath(string.Format("~/App_Data/Books/{0}", "MSG.json.txt")).ToString();
+            foreach (var chapter in dailyBook.BookChapter)
+            {
+                if (chapter.ChapterId == chapterFrom || chapter.ChapterId == chapterTo)
+                {
+                    chapterList.Add(chapter);
+                }
+            }
+
+            return chapterList;
+        }
+
+
+        public Bible GetBible(BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Msg, string bibleFullName = "The Message Bible")
+        {
+            var selectedBible = SessionBible?.Find(x => x.ShortName.Equals(bibleVersion.ToString(), StringComparison.CurrentCultureIgnoreCase));
+            if (selectedBible != null)
+            {
+                return selectedBible;
+            }
+
+            var bibleFilepath = HostingEnvironment.MapPath($"~/App_Data/Books/{bibleVersion}.json");
 
             var bibleStreamToString = File.ReadAllText(bibleFilepath);
 
-            return SessionBible = BibleParser(bibleStreamToString, bibleFullName, null, bibleVersion);
+            selectedBible = BibleParser(bibleStreamToString);
 
+            if (SessionBible != null)
+            {
+                SessionBible.Add(selectedBible);
+            }
+            else
+            {
+                SessionBible = new List<Bible> { selectedBible };
+            }
+
+            return selectedBible;
         }
 
         public static List<DailyScriptures> GetScriptures()
@@ -92,31 +127,31 @@ namespace ResourceBibleStudy.Repository.Dao
                 return SessionDailyScriptures;
             }
 
-            var filepath = HostingEnvironment.MapPath(string.Format("~/App_Data/Books/{0}", "DailyScriptures.txt")).ToString();
+            var filepath = HostingEnvironment.MapPath("~/App_Data/Books/DailyScriptures.txt");
 
             var readingPlanTemplate = File.ReadAllText(filepath);
 
             return SessionDailyScriptures = JsonConvert.DeserializeObject<List<DailyScriptures>>(readingPlanTemplate);
         }
 
-        public Bible BibleParser(string theEntireBibleJsonString, string bibleName = "Unknown", string shortName = "Unknown", BibleConstants.BibleVersions bibleVersion = BibleConstants.BibleVersions.Tmsg)
+        public Bible BibleParser(string theEntireBibleJsonString)
         {
-            var tempBible = new Bible { Books = new List<Book>(), Name = bibleName, ShortName = shortName, Version = bibleVersion.ToString() };
-
             //All books after reading from File 
-            var bibleBooks = JsonConvert.DeserializeObject<Bible>(theEntireBibleJsonString);
+            var bible = JsonConvert.DeserializeObject<Bible>(theEntireBibleJsonString);
 
-            //Each Book in the Bible
-            tempBible.Books = bibleBooks.Books.OrderBy(x => x.Id).ToList();
+            bible.Books = bible.Books.OrderBy(x => x.Id).ToList();
 
-            return tempBible;
+            return bible;
         }
 
         public DailyScriptures GetDailyScriptures(int dayOfTheYear = 0)
         {
             var getDailyScriptures = GetScriptures();
 
-            var bibleJson = JsonConvert.SerializeObject(getDailyScriptures);
+            if (DateTime.IsLeapYear(DateTime.Now.Year))
+            {
+                return dayOfTheYear == 0 ? getDailyScriptures[DateTime.Now.DayOfYear + 1] : getDailyScriptures[dayOfTheYear + 1];
+            }
 
             return dayOfTheYear == 0 ? getDailyScriptures[DateTime.Now.DayOfYear] : getDailyScriptures[dayOfTheYear];
         }

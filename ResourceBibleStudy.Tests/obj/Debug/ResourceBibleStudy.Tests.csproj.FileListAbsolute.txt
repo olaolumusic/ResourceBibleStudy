@@ -58,10 +58,10 @@ C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.WebPages.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.dll
-C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.Optimization.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.Optimization.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Owin.dll
+C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.Security.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\ResourceBibleStudy.Core.pdb
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\ResourceBibleStudy.Repository.pdb
@@ -77,9 +77,9 @@ C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.WebPages.xml
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.xml
-C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.Optimization.xml
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.xml
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.Owin.Security.xml
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.csprojAssemblyReference.cache
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.csproj.CoreCompileInputs.cache

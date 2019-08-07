@@ -52,15 +52,39 @@
     <!-- Data picker -->
     <script src="~/Scripts/bootstrap-datepicker.js"></script>
     <script type="text/javascript">
-        //Next and previous controll
+        //Switch Translation
+        $('.switch-translation').click(function () {
+            var chapterId = $("#chapterId").val();
+            var bookId = $("#bookId").val();
+            var url = $(this).data('url') + ("&chapterId=" + chapterId) + ("&bookId=" + bookId);
+            $.ajax({
+                type: "GET",
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    $("#readingTitle").html(response.readingTitle);
+                    $("#readingContent").html(response.readingContent);
+                    $("#chapterId").val(response.chapterId);
+                    $("#bookId").val(response.bookId);
+                    $("#current-translation-name").html(response.translation);
+                    $("#current-translation").val(response.shortName);
+                },
+                error: function (error) {
+
+                    alert(error);
+                }
+            });
+        });
+
+        //Next and previous control
         $('.next_previous_chapter').click(function () {
             var chapterId = $("#chapterId").val();
             var bookId = $("#bookId").val();
+            var bibleVersion = $("#current-translation").val();
             $.ajax({
                 type: "GET",
-                beforeSend: function () {
-                },
-                url: $(this).data('url') + ("&chapterId=" + chapterId) + ("&bookId=" + bookId),
+                url: $(this).data('url') + ("&chapterId=" + chapterId) + ("&bookId=" + bookId) + ("&bibleVersion=" + bibleVersion),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 success: function (response) {
@@ -75,25 +99,67 @@
             });
         });
 
-
         //Next and previous controll
         $('.next_previous').click(function () {
             var timeOfTheDay = $("#timeOfTheDay").val();
             $.ajax({
                 type: "GET",
                 beforeSend: function () {
+                    //App.blockUI({ target: "#blockui_1_portlet_body" });
                 },
                 url: $(this).data('url') + ("&timeOfTheDay=" + timeOfTheDay),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 success: function (response) {
+                    //App.unblockUI("#blockui_1_portlet_body");
                     $("#readingTitle").html(response.readingTitle);
                     $("#readingContent").html(response.readingContent);
                     $("#currentDate").html(response.currentDate);
                     $("#timeOfTheDay").val(response.timeOfTheDay);
+                    //  UINotific8.init(messageHeader, response.message, response.status);
                 },
                 error: function (error) {
+                    //App.unblockUI("#blockui_1_portlet_body");
                     alert(error);
+                    //UINotific8.init(messageHeader, error, false);
+                }
+            });
+        });
+
+        //Bible Search
+        $(".bible-search").on("input keyup", function (e) {
+
+            e.preventDefault();
+
+            var search = $(this).val();
+            var category = $(this).data("category");
+            var bookId = $(this).data("bookid");
+
+            var param = {
+                search: search,
+                category: category,
+                bookId: bookId
+            }
+
+            //Send to Server Side
+            $.ajax({
+                type: "POST",
+                beforeSend: function() {
+
+                },
+                url: '@Url.Action("search","Home")',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                data: JSON.stringify(param),
+                success: function(data) {
+                    if (data.status) {
+                        $('#parent-books').html(data.searchResult);
+
+                    }
+
+                },
+                error: function(err) {
+
                 }
             });
         });
