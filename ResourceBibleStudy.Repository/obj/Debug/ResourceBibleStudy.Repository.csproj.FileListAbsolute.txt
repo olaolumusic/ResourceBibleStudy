@@ -18,3 +18,12 @@ C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\Re
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\ResourceBibleStudy.Core.pdb
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\Newtonsoft.Json.xml
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Repository\obj\Debug\ResourceBibleStudy.Repository.csproj.CopyComplete
+C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\ResourceBibleStudy.Repository.dll
+C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\ResourceBibleStudy.Repository.pdb
+C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\ResourceBibleStudy.Core.dll
+C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\ResourceBibleStudy.Core.pdb
+C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy.Repository\obj\Debug\ResourceBibleStudy.Repository.csprojResolveAssemblyReference.cache
+C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy.Repository\obj\Debug\ResourceBibleStudy.Repository.dll
+C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy.Repository\obj\Debug\ResourceBibleStudy.Repository.pdb
