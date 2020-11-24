@@ -1,4 +1,4 @@
-/* Resource Bible' book */
+/* Steve jobs' book */
 
 function updateDepth(book, newPage) {
 
@@ -28,16 +28,20 @@ function updateDepth(book, newPage) {
 
 }
 
-function loadPage(page) {
+function loadPage(page, bookId, chapterId) {
 
-    $.ajax({ url: 'http://localhost/ResourceBibleStudy/Home/content?pageNumber=' + page }).
+    $.ajax({
+        url: 'http://localhost/ResourceBibleStudy/Home/content?pageNumber=' + page +
+            "&bookId=" + bookId +
+            "&chapterId=" + chapterId
+    }).
         done(function (pageHtml) {
             $('.sj-book .p' + page).html(pageHtml);
-        }); 
+        });
 
 }
 
-function addPage(page, book) {
+function addPage(page, book, bookId, chapterId) {
 
     var id, pages = book.turn('pages');
 
@@ -51,8 +55,7 @@ function addPage(page, book) {
             html('<div class="loader"></div>');
 
         if (book.turn('addPage', element, page)) {
-            
-            loadPage(page);
+            loadPage(page, bookId, chapterId);
         }
 
     }
@@ -227,7 +230,7 @@ function setPreview(view) {
 
     preview.css({
         backgroundPosition:
-        '0px -' + ((view - 1) * previewHeight) + 'px'
+            '0px -' + ((view - 1) * previewHeight) + 'px'
     });
 }
 

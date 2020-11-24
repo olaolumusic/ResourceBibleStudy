@@ -44,36 +44,52 @@ namespace ResourceBibleStudy.Controllers
         /// <param name="bookChapter"></param>
         /// <returns></returns>
         [ActionName("content")]
-        public string GetSelectedBible(int pageNumber = 1, int bookId = 0, int bookChapter = 1)
+        public string GetSelectedBible(int pageNumber = 1, int bookId = 1, int chapterId = 1)
         {
             var readingResult = new StringBuilder();
 
             var model = _bibleRepository.GetBible();
 
-            if (pageNumber >= 5 && pageNumber <= 10)
+            if (pageNumber >= 5 && pageNumber <= 10 && bookId == 1 && chapterId == 1)
             {
                 pageNumber -= 4;
                 var queryHelper = QueryHelper.GetPagingRowNumber(pageNumber, 11);
                 var portion = model.Books.Where(x => x.Id >= queryHelper.RowStart && x.Id <= queryHelper.RowEnd);
                 readingResult.Append(RenderPartialViewToString("_BookTableOfContent", portion));
             }
-            else if (bookId == 0)
+            else if (pageNumber > 10)
             {
-                var book = model.Books.FirstOrDefault(x => x.Id == 1);
+                pageNumber -= 10;
+                var book = model.Books.FirstOrDefault(x => x.Id == bookId);
 
                 if (book != null)
                 {
-                    ViewBag.BookName = book.BookName;
-                    ViewBag.Chapter = bookChapter;
-
                     var chapter = book.BookChapter
-                        .FirstOrDefault(x => x.ChapterId == bookChapter);
+                        .FirstOrDefault(x => x.ChapterId == chapterId);
+
+                    var queryHelper = QueryHelper.GetPagingRowNumber(pageNumber, 5);
 
                     if (chapter != null)
-                        readingResult.Append(RenderPartialViewToString("_BookContent", chapter.ChapterVerses.Where(x => x.Id <= 5).ToList()));
+                    {
+                        var verses = chapter.ChapterVerses
+                            .Where(x => x.Id <= queryHelper.RowEnd && x.Id >= queryHelper.RowStart)
+                            .ToList();
+                        if (verses == null || verses.Count == 0)
+                        {
+                            chapterId += 1;
+                            queryHelper = QueryHelper.GetPagingRowNumber(1, 5);
+                            chapter = book.BookChapter
+                               .FirstOrDefault(x => x.ChapterId == chapterId);
+                            verses = chapter.ChapterVerses
+                          .Where(x => x.Id <= queryHelper.RowEnd && x.Id >= queryHelper.RowStart)
+                          .ToList();
+                        }
+                        ViewBag.BookName = book.BookName;
+                        ViewBag.Chapter = chapterId;
+                        readingResult.Append(RenderPartialViewToString("_BookContent", verses));
+                    }
                 }
-            }
-
+            } 
             return readingResult.ToString();
 
         }
@@ -331,6 +347,9 @@ namespace ResourceBibleStudy.Controllers
             });
 
 
+        }
+        public ActionResult BibleAnimated() {
+            return View();
         }
     }
 }
