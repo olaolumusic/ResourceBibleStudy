@@ -2,10 +2,11 @@ C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\bin\Debug\ResourceBibleSt
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\bin\Debug\ResourceBibleStudy.Core.pdb
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.dll
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.pdb
-C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.csprojResolveAssemblyReference.cache
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.csprojAssemblyReference.cache
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.csproj.CoreCompileInputs.cache
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.pdb
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Core\bin\Debug\ResourceBibleStudy.Core.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Core\bin\Debug\ResourceBibleStudy.Core.pdb
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.csprojAssemblyReference.cache
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Core\obj\Debug\ResourceBibleStudy.Core.csproj.CoreCompileInputs.cache
