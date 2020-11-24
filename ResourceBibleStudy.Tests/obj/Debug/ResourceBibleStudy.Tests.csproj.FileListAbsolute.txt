@@ -26,7 +26,6 @@ C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.Web
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\System.Web.Optimization.xml
-C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.csprojResolveAssemblyReference.cache
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.dll
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.pdb
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\ResourceBibleStudy.Core.dll
@@ -86,3 +85,8 @@ C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\Resourc
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.csproj.CopyComplete
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.dll
 C:\Projects\others\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.pdb
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\bin\Debug\ResourceBibleStudy.dll.config
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.csprojAssemblyReference.cache
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.csproj.CoreCompileInputs.cache
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy.Tests\obj\Debug\ResourceBibleStudy.Tests.csproj.CopyComplete

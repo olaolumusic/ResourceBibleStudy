@@ -3,28 +3,21 @@
 @{
     var chapterId = (int)ViewBag.Chapter;
     var bookName = (string)ViewBag.BookName;
+
+    var summary = Model.Skip(1).Aggregate(string.Empty, (current, verse) =>
+        current + string.Format("<sup>{0}</sup>{1} ", verse.Id, verse.VerseText));
 }
 
 <div class="book-content">
     <h1>@bookName</h1>
 
     <h2>Chapter @chapterId</h2>
+    <p class="capital">
+        @Model.First().VerseText
+    </p>
+    <p class="no-indent">
+        @Html.Raw(summary)
+    </p>
 
-    <p>
-        @foreach (var item in @Model)
-        {
-
-            if (item.Id == 1)
-            {
-            <p class="capital">
-                @item.VerseText
-            </p>
-            }
-            else
-            {
-                <p>@string.Format("{0}. {1}", item.Id, item.VerseText)</p>
-            }
-        }
-
-    </div>
-    <span class="page-number">Powered by Resource TAT</span>
+</div>
+<span class="page-number">Powered by Resource TAT</span>
