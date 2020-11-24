@@ -27,7 +27,6 @@ C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\System.Web.WebPages.xml
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\System.Web.WebPages.Razor.xml
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\Antlr3.Runtime.pdb
-C:\Projects\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csprojResolveAssemblyReference.cache
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.dll
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.pdb
 C:\Projects\ResourceBibleStudy\ResourceBibleStudy\bin\ResourceBibleStudy.Core.dll
@@ -141,3 +140,6 @@ C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibl
 C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csprojResolveAssemblyReference.cache
 C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.dll
 C:\Users\iss\Documents\PROJECTS\ResourceBiblePro\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.pdb
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csprojAssemblyReference.cache
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csproj.CoreCompileInputs.cache
+C:\Projects\ResourceBibleStudy\ResourceBibleStudy\obj\Debug\ResourceBibleStudy.csproj.CopyComplete
